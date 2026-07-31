@@ -15,8 +15,8 @@
     </td>
   </tr>
   <tr>
-    <td align="center"><b>Dashboard</b></td>
-    <td align="center"><b>Prediction Results</b></td>
+    <td align="center"><b>Dashboard Prediction</b></td>
+    <td align="center"><b>Input page form</b></td>
   </tr>
 </table>
 
