@@ -3,6 +3,25 @@
 > **An AI-powered decision support system designed specifically for micro-retailers (*Kirana* store owners) operating under strict daily liquid cash constraints.**
 
 ---
+## 📸 Application Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/PiyushVIT346/Kirana-Cap-AI/main/s1.jpg" alt="Dashboard Screenshot" width="450"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/PiyushVIT346/Kirana-Cap-AI/main/s2.jpg" alt="Prediction Screenshot" width="450"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Dashboard</b></td>
+    <td align="center"><b>Prediction Results</b></td>
+  </tr>
+</table>
+
+---
+
 
 ## 📌 Overview
 
