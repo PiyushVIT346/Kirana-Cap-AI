@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirana-Cap AI | Inventory Optimizer</title>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Google Fonts & FontAwesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="app-header">
+    <div class="brand">
+      <i class="fa-solid fa-store brand-icon"></i>
+      <div>
+        <h1>Kirana-Cap AI</h1>
+        <p>Smart Cash-Constrained Inventory Optimizer</p>
+      </div>
+    </div>
+    <div class="header-status">
+      <span id="api-status-badge" class="badge badge-offline">
+        <i class="fa-solid fa-circle-dot"></i> Checking API...
+      </span>
+      <button id="refresh-api-btn" class="btn btn-sm btn-outline">
+        <i class="fa-solid fa-arrows-rotate"></i> Sync API
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <button class="nav-tab active" data-target="dashboard-view">
+      <i class="fa-solid fa-chart-pie"></i> Executive Dashboard
+    </button>
+
+    <button class="nav-tab" data-target="interactive-view">
+      <i class="fa-solid fa-sliders"></i> Store Planner & API Playground
+    </button>
+  </nav>
+
+  <main class="container">
+
+    <!-- VIEW 1: DASHBOARD & INSIGHTS -->
+    <section id="dashboard-view" class="view-panel active">
+      
+      <!-- Key Metric Cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-icon cash"><i class="fa-solid fa-wallet"></i></div>
+          <div class="kpi-data">
+            <span class="kpi-label">Morning Cash</span>
+            <h3 id="kpi-cash">₹2,500.00</h3>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon spend"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="kpi-data">
+            <span class="kpi-label">Allocated Spend</span>
+            <h3 id="kpi-spend">₹0.00</h3>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon remaining"><i class="fa-solid fa-piggy-bank"></i></div>
+          <div class="kpi-data">
+            <span class="kpi-label">Cash Reserved</span>
+            <h3 id="kpi-remaining">₹2,500.00</h3>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon items"><i class="fa-solid fa-boxes-stacked"></i></div>
+          <div class="kpi-data">
+            <span class="kpi-label">SKUs Reordered</span>
+            <h3 id="kpi-reorder-count">0 / 0</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chart Grid -->
+      <div class="chart-grid">
+        <div class="card chart-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-chart-bar"></i> Stock On Hand vs AI Recommended Order</h3>
+          </div>
+          <div class="card-body">
+            <canvas id="stockCompareChart"></canvas>
+          </div>
+        </div>
+
+        <div class="card chart-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-chart-pie"></i> Capital Allocation per SKU</h3>
+          </div>
+          <div class="card-body">
+            <canvas id="cashDistributionChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recommendation Summary Table -->
+      <div class="card">
+        <div class="card-header">
+          <h3><i class="fa-solid fa-list-check"></i> Optimized Daily Purchasing Order</h3>
+        </div>
+        <div class="card-body p-0">
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Item SKU</th>
+                  <th>Distributor Visit</th>
+                  <th>Opening Stock</th>
+                  <th>AI Order Qty</th>
+                  <th>Unit Cost</th>
+                  <th>Est. Spend</th>
+                  <th>Status / AI Warning</th>
+                </tr>
+              </thead>
+              <tbody id="dashboard-table-body">
+                <tr>
+                  <td colspan="7" style="text-align:center; padding: 20px;">
+                    No plan calculated yet. Use the <strong>Store Planner</strong> tab to run a optimization cycle.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- VIEW 2: INTERACTIVE STORE PLANNER & API TESTER -->
+    <section id="interactive-view" class="view-panel">
+      
+      <div class="grid-layout-2col">
+        
+        <!-- Context Inputs Form -->
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-sliders"></i> Daily Context Inputs</h3>
+          </div>
+          <div class="card-body">
+            <form id="daily-plan-form">
+              <div class="form-group">
+                <label for="day_num"><i class="fa-regular fa-calendar-days"></i> Day of Week</label>
+                <select id="day_num" class="form-control">
+                  <option value="0">Monday</option>
+                  <option value="1" selected>Tuesday</option>
+                  <option value="2">Wednesday</option>
+                  <option value="3">Thursday</option>
+                  <option value="4">Friday</option>
+                  <option value="5">Saturday</option>
+                  <option value="6">Sunday</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="month"><i class="fa-regular fa-calendar"></i> Month</label>
+                  <select id="month" class="form-control">
+                    <option value="1">Jan</option><option value="2">Feb</option>
+                    <option value="3">Mar</option><option value="4">Apr</option>
+                    <option value="5">May</option><option value="6">Jun</option>
+                    <option value="7" selected>Jul</option><option value="8">Aug</option>
+                    <option value="9">Sep</option><option value="10">Oct</option>
+                    <option value="11">Nov</option><option value="12">Dec</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="is_festival_season"><i class="fa-solid fa-sparkles"></i> Festival Surge?</label>
+                  <select id="is_festival_season" class="form-control">
+                    <option value="0" selected>0 - Normal Demand</option>
+                    <option value="1">1 - High Festival Demand</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="morning_cash_inr"><i class="fa-solid fa-indian-rupee-sign"></i> Available Cash Today (₹)</label>
+                <input type="number" id="morning_cash_inr" class="form-control" value="2500" min="0" step="100" />
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="calculate-plan-btn">
+                <i class="fa-solid fa-microchip"></i> Calculate Optimal Purchases
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Single SKU API Quick Tester -->
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-vial"></i> Single SKU Quick Test (<code>/predict/single</code>)</h3>
+          </div>
+          <div class="card-body">
+            <form id="single-predict-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="single_item_name">Item SKU</label>
+                  <select id="single_item_name" class="form-control">
+                    <option value="Loading...">Loading items...</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="single_stock">Opening Stock</label>
+                  <input type="number" id="single_stock" class="form-control" value="5" min="0" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="single_cost">Unit Cost (₹)</label>
+                  <input type="number" id="single_cost" class="form-control" value="12.0" step="0.5" />
+                </div>
+                <div class="form-group">
+                  <label for="single_dist">Distributor Present?</label>
+                  <select id="single_dist" class="form-control">
+                    <option value="1" selected>1 - Yes</option>
+                    <option value="0">0 - No</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-outline btn-block">
+                <i class="fa-solid fa-bolt"></i> Test Endpoint
+              </button>
+            </form>
+
+            <div id="single-result-box" class="result-box hidden">
+              <!-- Dynamically populated by app.js -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Editable Shop Inventory Table -->
+      <div class="card mt-20">
+        <div class="card-header">
+          <h3><i class="fa-solid fa-boxes-packing"></i> Configure Shop Inventory State</h3>
+        </div>
+        <div class="card-body p-0">
+          <div class="table-responsive">
+            <table class="data-table" id="interactive-items-table">
+              <thead>
+                <tr>
+                  <th>Item SKU</th>
+                  <th>Unit Cost (₹)</th>
+                  <th>Distributor Visiting Today?</th>
+                  <th>Opening Stock</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="interactive-items-tbody">
+                <!-- Dynamically populated by app.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

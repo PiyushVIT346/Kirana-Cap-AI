@@ -1,0 +1,1441 @@
+Date,Day_of_Week,Day_Num,Month,Is_Festival_Season,Item_Name,Category,Cost_Price_INR,Selling_Price_INR,Profit_Margin_PCT,Distributor_Present,Opening_Stock,Daily_Demand_Est,Quantity_Sold,Daily_Revenue_INR,Morning_Cash_INR,Optimal_Buy_Qty,Actual_Buy_Qty,Closing_Stock,Stockout_Occurred,Stockout_Reason
+2025-01-01,Wednesday,2,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,26,26,1508.0,3449.26,21,21,1,0,None
+2025-01-01,Wednesday,2,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,11,15,15,450.0,3449.26,8,8,4,0,None
+2025-01-01,Wednesday,2,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,15,16,15,210.0,3449.26,0,0,0,1,Distributor Absent
+2025-01-01,Wednesday,2,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,13,16,13,130.0,3449.26,0,0,0,1,Distributor Absent
+2025-01-01,Wednesday,2,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,18,3,3,105.0,3449.26,20,20,35,0,None
+2025-01-01,Wednesday,2,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,18,11,11,1650.0,3449.26,0,0,7,0,None
+2025-01-01,Wednesday,2,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,18,3,3,84.0,3449.26,0,0,15,0,None
+2025-01-01,Wednesday,2,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,9,4,4,300.0,3449.26,4,4,9,0,None
+2025-01-02,Thursday,3,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,19,19,1102.0,3189.41,29,29,11,0,None
+2025-01-02,Thursday,3,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,35,21,630.0,3189.41,17,17,0,1,Unexpected Demand Spike
+2025-01-02,Thursday,3,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,16,0,0.0,3189.41,0,0,0,1,Distributor Absent
+2025-01-02,Thursday,3,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,21,0,0.0,3189.41,0,0,0,1,Distributor Absent
+2025-01-02,Thursday,3,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,35,7,7,245.0,3189.41,0,0,28,0,None
+2025-01-02,Thursday,3,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,7,9,9,1350.0,3189.41,31,9,7,0,Cash Constraint
+2025-01-02,Thursday,3,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,15,8,8,224.0,3189.41,14,1,8,0,Cash Constraint
+2025-01-02,Thursday,3,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,9,4,4,300.0,3189.41,0,0,5,0,None
+2025-01-03,Friday,4,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,11,22,22,1276.0,3311.84,16,16,5,0,None
+2025-01-03,Friday,4,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,3311.84,19,19,2,0,None
+2025-01-03,Friday,4,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,17,17,238.0,3311.84,66,66,49,0,None
+2025-01-03,Friday,4,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,22,22,220.0,3311.84,88,88,66,0,None
+2025-01-03,Friday,4,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,28,6,6,210.0,3311.84,0,0,22,0,None
+2025-01-03,Friday,4,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,7,10,7,1050.0,3311.84,0,0,0,1,Distributor Absent
+2025-01-03,Friday,4,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,8,8,8,224.0,3311.84,0,0,0,0,None
+2025-01-03,Friday,4,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,5,3,3,225.0,3311.84,0,0,2,0,None
+2025-01-04,Saturday,5,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,36,35,2030.0,2709.24,30,30,0,1,Unexpected Demand Spike
+2025-01-04,Saturday,5,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,19,19,570.0,2709.24,23,23,6,0,None
+2025-01-04,Saturday,5,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,49,24,24,336.0,2709.24,0,0,25,0,None
+2025-01-04,Saturday,5,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,66,27,27,270.0,2709.24,0,0,39,0,None
+2025-01-04,Saturday,5,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,22,9,9,315.0,2709.24,0,0,13,0,None
+2025-01-04,Saturday,5,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,16,0,0.0,2709.24,0,0,0,1,Distributor Absent
+2025-01-04,Saturday,5,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,2709.24,0,0,0,1,Distributor Absent
+2025-01-04,Saturday,5,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,2,6,6,450.0,2709.24,20,8,4,0,Cash Constraint
+2025-01-05,Sunday,6,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,29,29,1682.0,2936.6,35,35,6,0,None
+2025-01-05,Sunday,6,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,16,16,480.0,2936.6,19,19,9,0,None
+2025-01-05,Sunday,6,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,25,21,21,294.0,2936.6,0,0,4,0,None
+2025-01-05,Sunday,6,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,39,21,21,210.0,2936.6,0,0,18,0,None
+2025-01-05,Sunday,6,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,13,3,3,105.0,2936.6,0,0,10,0,None
+2025-01-05,Sunday,6,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,7,0,0.0,2936.6,0,0,0,1,Distributor Absent
+2025-01-05,Sunday,6,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,3,0,0.0,2936.6,0,0,0,1,Distributor Absent
+2025-01-05,Sunday,6,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,4,3,3,225.0,2936.6,0,0,1,0,None
+2025-01-06,Monday,0,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,20,20,1160.0,2908.72,21,21,7,0,None
+2025-01-06,Monday,0,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,9,24,19,570.0,2908.72,10,10,0,1,Unexpected Demand Spike
+2025-01-06,Monday,0,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,4,16,4,56.0,2908.72,0,0,0,1,Distributor Absent
+2025-01-06,Monday,0,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,18,16,16,160.0,2908.72,0,0,2,0,None
+2025-01-06,Monday,0,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,10,3,3,105.0,2908.72,0,0,7,0,None
+2025-01-06,Monday,0,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,8,8,1200.0,2908.72,26,11,3,0,Cash Constraint
+2025-01-06,Monday,0,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,5,3,84.0,2908.72,19,3,0,1,Cash Constraint
+2025-01-06,Monday,0,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,1,2,1,75.0,2908.72,0,0,0,1,Distributor Absent
+2025-01-07,Tuesday,1,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,7,28,27,1566.0,5073.18,20,20,0,1,Unexpected Demand Spike
+2025-01-07,Tuesday,1,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,14,14,420.0,5073.18,19,19,5,0,None
+2025-01-07,Tuesday,1,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,16,16,224.0,5073.18,49,49,33,0,None
+2025-01-07,Tuesday,1,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,2,18,18,180.0,5073.18,64,64,48,0,None
+2025-01-07,Tuesday,1,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,7,4,4,140.0,5073.18,0,0,3,0,None
+2025-01-07,Tuesday,1,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,13,3,450.0,5073.18,0,0,0,1,Distributor Absent
+2025-01-07,Tuesday,1,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,5073.18,0,0,0,1,Distributor Absent
+2025-01-07,Tuesday,1,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,5073.18,0,0,0,1,Distributor Absent
+2025-01-08,Wednesday,2,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,33,17,986.0,934.21,27,17,0,1,Unexpected Demand Spike
+2025-01-08,Wednesday,2,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,14,7,210.0,934.21,14,2,0,1,Unexpected Demand Spike
+2025-01-08,Wednesday,2,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,33,9,9,126.0,934.21,0,0,24,0,None
+2025-01-08,Wednesday,2,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,48,17,17,170.0,934.21,0,0,31,0,None
+2025-01-08,Wednesday,2,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,3,1,1,35.0,934.21,35,0,2,0,Cash Constraint
+2025-01-08,Wednesday,2,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,934.21,0,0,0,1,Distributor Absent
+2025-01-08,Wednesday,2,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,934.21,0,0,0,1,Distributor Absent
+2025-01-08,Wednesday,2,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,0,0.0,934.21,13,0,0,1,Cash Constraint
+2025-01-09,Thursday,3,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,22,22,1276.0,3534.36,30,30,8,0,None
+2025-01-09,Thursday,3,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,21,21,630.0,3534.36,21,21,0,0,None
+2025-01-09,Thursday,3,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,24,15,15,210.0,3534.36,0,0,9,0,None
+2025-01-09,Thursday,3,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,31,21,21,210.0,3534.36,0,0,10,0,None
+2025-01-09,Thursday,3,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,2,9,2,70.0,3534.36,0,0,0,1,Distributor Absent
+2025-01-09,Thursday,3,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,3,3,450.0,3534.36,38,10,7,0,Cash Constraint
+2025-01-09,Thursday,3,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,9,4,112.0,3534.36,29,4,0,1,Cash Constraint
+2025-01-09,Thursday,3,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,3534.36,0,0,0,1,Distributor Absent
+2025-01-10,Friday,4,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,8,25,25,1450.0,2326.95,19,19,2,0,None
+2025-01-10,Friday,4,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,2326.95,19,19,2,0,None
+2025-01-10,Friday,4,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,9,12,12,168.0,2326.95,57,57,54,0,None
+2025-01-10,Friday,4,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,10,19,19,190.0,2326.95,78,21,12,0,Cash Constraint
+2025-01-10,Friday,4,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,6,0,0.0,2326.95,0,0,0,1,Distributor Absent
+2025-01-10,Friday,4,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,7,7,7,1050.0,2326.95,0,0,0,0,None
+2025-01-10,Friday,4,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,11,0,0.0,2326.95,0,0,0,1,Distributor Absent
+2025-01-10,Friday,4,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,2326.95,0,0,0,1,Distributor Absent
+2025-01-11,Saturday,5,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,35,35,2030.0,3301.84,33,33,0,0,None
+2025-01-11,Saturday,5,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,19,19,570.0,3301.84,23,23,6,0,None
+2025-01-11,Saturday,5,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,54,17,17,238.0,3301.84,0,0,37,0,None
+2025-01-11,Saturday,5,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,12,32,12,120.0,3301.84,0,0,0,1,Distributor Absent
+2025-01-11,Saturday,5,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,4,0,0.0,3301.84,0,0,0,1,Distributor Absent
+2025-01-11,Saturday,5,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,5,0,0.0,3301.84,0,0,0,1,Distributor Absent
+2025-01-11,Saturday,5,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,3301.84,0,0,0,1,Distributor Absent
+2025-01-11,Saturday,5,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,5,5,375.0,3301.84,22,15,10,0,Cash Constraint
+2025-01-12,Sunday,6,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,36,35,2030.0,3629.51,35,35,0,1,Unexpected Demand Spike
+2025-01-12,Sunday,6,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,27,25,750.0,3629.51,19,19,0,1,Unexpected Demand Spike
+2025-01-12,Sunday,6,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,37,19,19,266.0,3629.51,0,0,18,0,None
+2025-01-12,Sunday,6,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,27,0,0.0,3629.51,0,0,0,1,Distributor Absent
+2025-01-12,Sunday,6,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,5,0,0.0,3629.51,0,0,0,1,Distributor Absent
+2025-01-12,Sunday,6,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,12,0,0.0,3629.51,0,0,0,1,Distributor Absent
+2025-01-12,Sunday,6,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,3629.51,0,0,0,1,Distributor Absent
+2025-01-12,Sunday,6,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,10,4,4,300.0,3629.51,0,0,6,0,None
+2025-01-13,Monday,0,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,21,21,1218.0,2271.88,27,27,6,0,None
+2025-01-13,Monday,0,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,13,13,390.0,2271.88,19,19,6,0,None
+2025-01-13,Monday,0,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,18,23,18,252.0,2271.88,0,0,0,1,Distributor Absent
+2025-01-13,Monday,0,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,12,0,0.0,2271.88,0,0,0,1,Distributor Absent
+2025-01-13,Monday,0,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,3,0,0.0,2271.88,0,0,0,1,Distributor Absent
+2025-01-13,Monday,0,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,12,2,300.0,2271.88,26,2,0,1,Cash Constraint
+2025-01-13,Monday,0,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,7,5,140.0,2271.88,19,5,0,1,Cash Constraint
+2025-01-13,Monday,0,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,6,6,6,450.0,2271.88,0,0,0,0,None
+2025-01-14,Tuesday,1,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,21,21,1218.0,2034.04,21,21,6,0,None
+2025-01-14,Tuesday,1,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,29,19,570.0,2034.04,13,13,0,1,Unexpected Demand Spike
+2025-01-14,Tuesday,1,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,14,14,196.0,2034.04,49,49,35,0,None
+2025-01-14,Tuesday,1,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,20,3,30.0,2034.04,66,3,0,1,Cash Constraint
+2025-01-14,Tuesday,1,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,2,0,0.0,2034.04,0,0,0,1,Distributor Absent
+2025-01-14,Tuesday,1,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,2034.04,0,0,0,1,Distributor Absent
+2025-01-14,Tuesday,1,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,11,0,0.0,2034.04,0,0,0,1,Distributor Absent
+2025-01-14,Tuesday,1,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,1,0,0.0,2034.04,0,0,0,1,Distributor Absent
+2025-01-15,Wednesday,2,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,23,23,1334.0,2413.93,21,21,4,0,None
+2025-01-15,Wednesday,2,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,25,19,570.0,2413.93,19,19,0,1,Unexpected Demand Spike
+2025-01-15,Wednesday,2,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,35,12,12,168.0,2413.93,0,0,23,0,None
+2025-01-15,Wednesday,2,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,22,0,0.0,2413.93,0,0,0,1,Distributor Absent
+2025-01-15,Wednesday,2,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,7,7,245.0,2413.93,38,30,23,0,Cash Constraint
+2025-01-15,Wednesday,2,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,7,0,0.0,2413.93,0,0,0,1,Distributor Absent
+2025-01-15,Wednesday,2,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2413.93,0,0,0,1,Distributor Absent
+2025-01-15,Wednesday,2,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,6,0,0.0,2413.93,13,0,0,1,Cash Constraint
+2025-01-16,Thursday,3,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,24,24,1392.0,4195.05,26,26,6,0,None
+2025-01-16,Thursday,3,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,21,21,630.0,4195.05,21,21,0,0,None
+2025-01-16,Thursday,3,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,23,21,21,294.0,4195.05,0,0,2,0,None
+2025-01-16,Thursday,3,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,28,0,0.0,4195.05,0,0,0,1,Distributor Absent
+2025-01-16,Thursday,3,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,23,2,2,70.0,4195.05,0,0,21,0,None
+2025-01-16,Thursday,3,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,6,6,900.0,4195.05,38,17,11,0,Cash Constraint
+2025-01-16,Thursday,3,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,1,1,28.0,4195.05,29,1,0,0,Cash Constraint
+2025-01-16,Thursday,3,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,5,0,0.0,4195.05,0,0,0,1,Distributor Absent
+2025-01-17,Friday,4,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,23,23,1334.0,2937.27,21,21,4,0,None
+2025-01-17,Friday,4,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,18,18,540.0,2937.27,19,19,1,0,None
+2025-01-17,Friday,4,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,2,21,21,294.0,2937.27,64,64,45,0,None
+2025-01-17,Friday,4,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,26,26,260.0,2937.27,88,70,44,0,Cash Constraint
+2025-01-17,Friday,4,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,21,1,1,35.0,2937.27,0,0,20,0,None
+2025-01-17,Friday,4,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,11,9,9,1350.0,2937.27,0,0,2,0,None
+2025-01-17,Friday,4,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,11,0,0.0,2937.27,0,0,0,1,Distributor Absent
+2025-01-17,Friday,4,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,2937.27,0,0,0,1,Distributor Absent
+2025-01-18,Saturday,5,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,30,30,1740.0,4345.85,31,31,5,0,None
+2025-01-18,Saturday,5,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,19,19,570.0,4345.85,24,24,6,0,None
+2025-01-18,Saturday,5,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,45,14,14,196.0,4345.85,0,0,31,0,None
+2025-01-18,Saturday,5,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,44,39,39,390.0,4345.85,0,0,5,0,None
+2025-01-18,Saturday,5,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,20,6,6,210.0,4345.85,0,0,14,0,None
+2025-01-18,Saturday,5,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,2,12,2,300.0,4345.85,0,0,0,1,Distributor Absent
+2025-01-18,Saturday,5,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,4345.85,0,0,0,1,Distributor Absent
+2025-01-18,Saturday,5,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,3,3,225.0,4345.85,22,22,19,0,None
+2025-01-19,Sunday,6,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,24,24,1392.0,2239.31,30,30,11,0,None
+2025-01-19,Sunday,6,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,14,14,420.0,2239.31,19,19,11,0,None
+2025-01-19,Sunday,6,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,31,14,14,196.0,2239.31,0,0,17,0,None
+2025-01-19,Sunday,6,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,5,22,5,50.0,2239.31,0,0,0,1,Distributor Absent
+2025-01-19,Sunday,6,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,14,8,8,280.0,2239.31,0,0,6,0,None
+2025-01-19,Sunday,6,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,14,0,0.0,2239.31,0,0,0,1,Distributor Absent
+2025-01-19,Sunday,6,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2239.31,0,0,0,1,Distributor Absent
+2025-01-19,Sunday,6,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,19,9,9,675.0,2239.31,0,0,10,0,None
+2025-01-20,Monday,0,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,11,28,27,1566.0,4460.8,16,16,0,1,Unexpected Demand Spike
+2025-01-20,Monday,0,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,11,16,16,480.0,4460.8,8,8,3,0,None
+2025-01-20,Monday,0,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,17,18,17,238.0,4460.8,0,0,0,1,Distributor Absent
+2025-01-20,Monday,0,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,22,0,0.0,4460.8,0,0,0,1,Distributor Absent
+2025-01-20,Monday,0,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,6,7,6,210.0,4460.8,0,0,0,1,Distributor Absent
+2025-01-20,Monday,0,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,6,6,900.0,4460.8,26,25,19,0,Cash Constraint
+2025-01-20,Monday,0,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,7,2,56.0,4460.8,19,2,0,1,Cash Constraint
+2025-01-20,Monday,0,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,10,5,5,375.0,4460.8,0,0,5,0,None
+2025-01-21,Tuesday,1,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,26,26,1508.0,2432.42,27,27,1,0,None
+2025-01-21,Tuesday,1,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,17,17,510.0,2432.42,16,16,2,0,None
+2025-01-21,Tuesday,1,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,12,12,168.0,2432.42,49,49,37,0,None
+2025-01-21,Tuesday,1,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,24,4,40.0,2432.42,66,4,0,1,Cash Constraint
+2025-01-21,Tuesday,1,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,7,0,0.0,2432.42,0,0,0,1,Distributor Absent
+2025-01-21,Tuesday,1,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,19,4,4,600.0,2432.42,0,0,15,0,None
+2025-01-21,Tuesday,1,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,2432.42,0,0,0,1,Distributor Absent
+2025-01-21,Tuesday,1,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,5,6,5,375.0,2432.42,0,0,0,1,Distributor Absent
+2025-01-22,Wednesday,2,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,35,27,1566.0,3283.6,26,26,0,1,Unexpected Demand Spike
+2025-01-22,Wednesday,2,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,20,19,570.0,3283.6,17,17,0,1,Unexpected Demand Spike
+2025-01-22,Wednesday,2,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,37,18,18,252.0,3283.6,0,0,19,0,None
+2025-01-22,Wednesday,2,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,17,0,0.0,3283.6,0,0,0,1,Distributor Absent
+2025-01-22,Wednesday,2,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,3,3,105.0,3283.6,38,38,35,0,None
+2025-01-22,Wednesday,2,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,15,8,8,1200.0,3283.6,0,0,7,0,None
+2025-01-22,Wednesday,2,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,3283.6,0,0,0,1,Distributor Absent
+2025-01-22,Wednesday,2,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,6,6,450.0,3283.6,13,6,0,0,Cash Constraint
+2025-01-23,Thursday,3,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,33,30,1740.0,3365.35,30,30,0,1,Unexpected Demand Spike
+2025-01-23,Thursday,3,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,22,21,630.0,3365.35,21,21,0,1,Unexpected Demand Spike
+2025-01-23,Thursday,3,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,19,15,15,210.0,3365.35,0,0,4,0,None
+2025-01-23,Thursday,3,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,12,0,0.0,3365.35,0,0,0,1,Distributor Absent
+2025-01-23,Thursday,3,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,35,6,6,210.0,3365.35,0,0,29,0,None
+2025-01-23,Thursday,3,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,7,4,4,600.0,3365.35,31,9,12,0,Cash Constraint
+2025-01-23,Thursday,3,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,9,2,56.0,3365.35,29,2,0,1,Cash Constraint
+2025-01-23,Thursday,3,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3365.35,0,0,0,1,Distributor Absent
+2025-01-24,Friday,4,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,28,27,1566.0,2663.72,27,27,0,1,Unexpected Demand Spike
+2025-01-24,Friday,4,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,20,19,570.0,2663.72,19,19,0,1,Unexpected Demand Spike
+2025-01-24,Friday,4,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,4,15,15,210.0,2663.72,62,62,51,0,None
+2025-01-24,Friday,4,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,18,4,40.0,2663.72,88,4,0,1,Cash Constraint
+2025-01-24,Friday,4,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,29,4,4,140.0,2663.72,0,0,25,0,None
+2025-01-24,Friday,4,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,12,11,11,1650.0,2663.72,0,0,1,0,None
+2025-01-24,Friday,4,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,2663.72,0,0,0,1,Distributor Absent
+2025-01-24,Friday,4,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,2663.72,0,0,0,1,Distributor Absent
+2025-01-25,Saturday,5,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,29,29,1682.0,4269.24,35,35,6,0,None
+2025-01-25,Saturday,5,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,29,25,750.0,4269.24,25,25,0,1,Unexpected Demand Spike
+2025-01-25,Saturday,5,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,51,22,22,308.0,4269.24,0,0,29,0,None
+2025-01-25,Saturday,5,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,21,0,0.0,4269.24,0,0,0,1,Distributor Absent
+2025-01-25,Saturday,5,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,25,9,9,315.0,4269.24,0,0,16,0,None
+2025-01-25,Saturday,5,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,1,12,1,150.0,4269.24,0,0,0,1,Distributor Absent
+2025-01-25,Saturday,5,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,4269.24,0,0,0,1,Distributor Absent
+2025-01-25,Saturday,5,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,5,5,375.0,4269.24,22,22,17,0,None
+2025-01-26,Sunday,6,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,42,35,2030.0,3447.91,29,29,0,1,Unexpected Demand Spike
+2025-01-26,Sunday,6,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,29,25,750.0,3447.91,25,25,0,1,Unexpected Demand Spike
+2025-01-26,Sunday,6,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,29,17,17,238.0,3447.91,0,0,12,0,None
+2025-01-26,Sunday,6,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,25,0,0.0,3447.91,0,0,0,1,Distributor Absent
+2025-01-26,Sunday,6,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,16,9,9,315.0,3447.91,0,0,7,0,None
+2025-01-26,Sunday,6,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,15,0,0.0,3447.91,0,0,0,1,Distributor Absent
+2025-01-26,Sunday,6,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,3447.91,0,0,0,1,Distributor Absent
+2025-01-26,Sunday,6,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,17,4,4,300.0,3447.91,0,0,13,0,None
+2025-01-27,Monday,0,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,24,24,1392.0,3439.14,27,27,3,0,None
+2025-01-27,Monday,0,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,20,19,570.0,3439.14,19,19,0,1,Unexpected Demand Spike
+2025-01-27,Monday,0,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,12,16,12,168.0,3439.14,0,0,0,1,Distributor Absent
+2025-01-27,Monday,0,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,20,0,0.0,3439.14,0,0,0,1,Distributor Absent
+2025-01-27,Monday,0,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,7,8,7,245.0,3439.14,0,0,0,1,Distributor Absent
+2025-01-27,Monday,0,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,7,7,1050.0,3439.14,26,11,4,0,Cash Constraint
+2025-01-27,Monday,0,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,6,3,84.0,3439.14,19,3,0,1,Cash Constraint
+2025-01-27,Monday,0,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,13,5,5,375.0,3439.14,0,0,8,0,None
+2025-01-28,Tuesday,1,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,18,18,1044.0,2532.7,24,24,9,0,None
+2025-01-28,Tuesday,1,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,26,19,570.0,2532.7,19,19,0,1,Unexpected Demand Spike
+2025-01-28,Tuesday,1,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,17,17,238.0,2532.7,49,49,32,0,None
+2025-01-28,Tuesday,1,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,21,21,210.0,2532.7,66,26,5,0,Cash Constraint
+2025-01-28,Tuesday,1,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,8,0,0.0,2532.7,0,0,0,1,Distributor Absent
+2025-01-28,Tuesday,1,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,4,11,4,600.0,2532.7,0,0,0,1,Distributor Absent
+2025-01-28,Tuesday,1,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,2532.7,0,0,0,1,Distributor Absent
+2025-01-28,Tuesday,1,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,8,8,600.0,2532.7,0,0,0,0,None
+2025-01-29,Wednesday,2,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,9,26,26,1508.0,3294.81,18,18,1,0,None
+2025-01-29,Wednesday,2,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,13,13,390.0,3294.81,19,19,6,0,None
+2025-01-29,Wednesday,2,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,32,18,18,252.0,3294.81,0,0,14,0,None
+2025-01-29,Wednesday,2,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,5,21,5,50.0,3294.81,0,0,0,1,Distributor Absent
+2025-01-29,Wednesday,2,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,5,5,175.0,3294.81,38,38,33,0,None
+2025-01-29,Wednesday,2,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,3294.81,0,0,0,1,Distributor Absent
+2025-01-29,Wednesday,2,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3294.81,0,0,0,1,Distributor Absent
+2025-01-29,Wednesday,2,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,4,300.0,3294.81,13,12,8,0,Cash Constraint
+2025-01-30,Thursday,3,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,34,30,1740.0,4489.95,29,29,0,1,Unexpected Demand Spike
+2025-01-30,Thursday,3,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,22,21,630.0,4489.95,15,15,0,1,Unexpected Demand Spike
+2025-01-30,Thursday,3,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,14,22,14,196.0,4489.95,0,0,0,1,Distributor Absent
+2025-01-30,Thursday,3,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,27,0,0.0,4489.95,0,0,0,1,Distributor Absent
+2025-01-30,Thursday,3,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,33,5,5,175.0,4489.95,0,0,28,0,None
+2025-01-30,Thursday,3,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,6,6,900.0,4489.95,38,19,13,0,Cash Constraint
+2025-01-30,Thursday,3,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,11,1,28.0,4489.95,29,1,0,1,Cash Constraint
+2025-01-30,Thursday,3,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,2,2,150.0,4489.95,0,0,6,0,None
+2025-01-31,Friday,4,1,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,24,24,1392.0,3126.57,27,27,3,0,None
+2025-01-31,Friday,4,1,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,3126.57,19,19,2,0,None
+2025-01-31,Friday,4,1,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,12,12,168.0,3126.57,66,66,54,0,None
+2025-01-31,Friday,4,1,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,17,17,170.0,3126.57,88,53,36,0,Cash Constraint
+2025-01-31,Friday,4,1,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,28,4,4,140.0,3126.57,0,0,24,0,None
+2025-01-31,Friday,4,1,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,13,8,8,1200.0,3126.57,0,0,5,0,None
+2025-01-31,Friday,4,1,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,3126.57,0,0,0,1,Distributor Absent
+2025-01-31,Friday,4,1,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,6,4,4,300.0,3126.57,0,0,2,0,None
+2025-02-01,Saturday,5,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,31,31,1798.0,5113.36,32,32,4,0,None
+2025-02-01,Saturday,5,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,17,17,510.0,5113.36,23,23,8,0,None
+2025-02-01,Saturday,5,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,54,19,19,266.0,5113.36,0,0,35,0,None
+2025-02-01,Saturday,5,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,36,29,29,290.0,5113.36,0,0,7,0,None
+2025-02-01,Saturday,5,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,24,3,3,105.0,5113.36,0,0,21,0,None
+2025-02-01,Saturday,5,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,5,10,5,750.0,5113.36,0,0,0,1,Distributor Absent
+2025-02-01,Saturday,5,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,5113.36,0,0,0,1,Distributor Absent
+2025-02-01,Saturday,5,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,2,9,9,675.0,5113.36,20,20,13,0,None
+2025-02-02,Sunday,6,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,36,35,2030.0,2111.24,31,31,0,1,Unexpected Demand Spike
+2025-02-02,Sunday,6,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,8,20,20,600.0,2111.24,17,17,5,0,None
+2025-02-02,Sunday,6,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,35,25,25,350.0,2111.24,0,0,10,0,None
+2025-02-02,Sunday,6,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,7,29,7,70.0,2111.24,0,0,0,1,Distributor Absent
+2025-02-02,Sunday,6,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,21,10,10,350.0,2111.24,0,0,11,0,None
+2025-02-02,Sunday,6,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,2111.24,0,0,0,1,Distributor Absent
+2025-02-02,Sunday,6,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2111.24,0,0,0,1,Distributor Absent
+2025-02-02,Sunday,6,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,13,5,5,375.0,2111.24,0,0,8,0,None
+2025-02-03,Monday,0,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,24,24,1392.0,5320.96,27,27,3,0,None
+2025-02-03,Monday,0,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,17,17,510.0,5320.96,14,14,2,0,None
+2025-02-03,Monday,0,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,10,8,8,112.0,5320.96,0,0,2,0,None
+2025-02-03,Monday,0,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,21,0,0.0,5320.96,0,0,0,1,Distributor Absent
+2025-02-03,Monday,0,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,11,3,3,105.0,5320.96,0,0,8,0,None
+2025-02-03,Monday,0,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,8,8,1200.0,5320.96,26,26,18,0,None
+2025-02-03,Monday,0,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,5,2,56.0,5320.96,19,2,0,1,Cash Constraint
+2025-02-03,Monday,0,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,5,5,375.0,5320.96,0,0,3,0,None
+2025-02-04,Tuesday,1,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,25,25,1450.0,1453.47,24,24,2,0,None
+2025-02-04,Tuesday,1,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,15,10,300.0,1453.47,17,8,0,1,Unexpected Demand Spike
+2025-02-04,Tuesday,1,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,2,24,2,28.0,1453.47,47,0,0,1,Cash Constraint
+2025-02-04,Tuesday,1,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,23,0,0.0,1453.47,66,0,0,1,Cash Constraint
+2025-02-04,Tuesday,1,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,8,3,3,105.0,1453.47,0,0,5,0,None
+2025-02-04,Tuesday,1,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,18,9,9,1350.0,1453.47,0,0,9,0,None
+2025-02-04,Tuesday,1,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,1453.47,0,0,0,1,Distributor Absent
+2025-02-04,Tuesday,1,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,3,7,3,225.0,1453.47,0,0,0,1,Distributor Absent
+2025-02-05,Wednesday,2,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,25,25,1450.0,2752.93,25,25,2,0,None
+2025-02-05,Wednesday,2,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,14,14,420.0,2752.93,19,19,5,0,None
+2025-02-05,Wednesday,2,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,15,0,0.0,2752.93,0,0,0,1,Distributor Absent
+2025-02-05,Wednesday,2,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,17,0,0.0,2752.93,0,0,0,1,Distributor Absent
+2025-02-05,Wednesday,2,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,5,3,3,105.0,2752.93,33,33,35,0,None
+2025-02-05,Wednesday,2,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,9,4,4,600.0,2752.93,0,0,5,0,None
+2025-02-05,Wednesday,2,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2752.93,0,0,0,1,Distributor Absent
+2025-02-05,Wednesday,2,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,0,0,0.0,2752.93,13,0,0,0,Cash Constraint
+2025-02-06,Thursday,3,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,23,23,1334.0,2944.18,28,28,7,0,None
+2025-02-06,Thursday,3,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,21,21,630.0,2944.18,16,16,0,0,None
+2025-02-06,Thursday,3,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,16,0,0.0,2944.18,0,0,0,1,Distributor Absent
+2025-02-06,Thursday,3,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,17,0,0.0,2944.18,0,0,0,1,Distributor Absent
+2025-02-06,Thursday,3,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,35,8,8,280.0,2944.18,0,0,27,0,None
+2025-02-06,Thursday,3,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,5,6,6,900.0,2944.18,33,8,7,0,Cash Constraint
+2025-02-06,Thursday,3,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,4,0,0.0,2944.18,29,0,0,1,Cash Constraint
+2025-02-06,Thursday,3,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,2944.18,0,0,0,1,Distributor Absent
+2025-02-07,Friday,4,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,7,25,25,1450.0,4087.93,20,20,2,0,None
+2025-02-07,Friday,4,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,4087.93,19,19,2,0,None
+2025-02-07,Friday,4,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,9,9,126.0,4087.93,66,66,57,0,None
+2025-02-07,Friday,4,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,17,17,170.0,4087.93,88,88,71,0,None
+2025-02-07,Friday,4,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,27,1,1,35.0,4087.93,0,0,26,0,None
+2025-02-07,Friday,4,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,7,5,5,750.0,4087.93,0,0,2,0,None
+2025-02-07,Friday,4,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,4087.93,0,0,0,1,Distributor Absent
+2025-02-07,Friday,4,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,7,0,0.0,4087.93,0,0,0,1,Distributor Absent
+2025-02-08,Saturday,5,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,33,33,1914.0,2844.9,33,33,2,0,None
+2025-02-08,Saturday,5,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,15,15,450.0,2844.9,23,23,10,0,None
+2025-02-08,Saturday,5,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,57,27,27,378.0,2844.9,0,0,30,0,None
+2025-02-08,Saturday,5,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,71,21,21,210.0,2844.9,0,0,50,0,None
+2025-02-08,Saturday,5,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,26,8,8,280.0,2844.9,0,0,18,0,None
+2025-02-08,Saturday,5,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,2,14,2,300.0,2844.9,0,0,0,1,Distributor Absent
+2025-02-08,Saturday,5,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,14,0,0.0,2844.9,0,0,0,1,Distributor Absent
+2025-02-08,Saturday,5,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,7,7,525.0,2844.9,22,8,1,0,Cash Constraint
+2025-02-09,Sunday,6,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,30,30,1740.0,3174.31,33,33,5,0,None
+2025-02-09,Sunday,6,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,10,18,18,540.0,3174.31,15,15,7,0,None
+2025-02-09,Sunday,6,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,30,27,27,378.0,3174.31,0,0,3,0,None
+2025-02-09,Sunday,6,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,50,18,18,180.0,3174.31,0,0,32,0,None
+2025-02-09,Sunday,6,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,18,5,5,175.0,3174.31,0,0,13,0,None
+2025-02-09,Sunday,6,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,10,0,0.0,3174.31,0,0,0,1,Distributor Absent
+2025-02-09,Sunday,6,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,3174.31,0,0,0,1,Distributor Absent
+2025-02-09,Sunday,6,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,1,1,1,75.0,3174.31,0,0,0,0,None
+2025-02-10,Monday,0,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,24,24,1392.0,2606.27,22,22,3,0,None
+2025-02-10,Monday,0,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,7,19,19,570.0,2606.27,12,12,0,0,None
+2025-02-10,Monday,0,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,3,18,3,42.0,2606.27,0,0,0,1,Distributor Absent
+2025-02-10,Monday,0,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,32,19,19,190.0,2606.27,0,0,13,0,None
+2025-02-10,Monday,0,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,13,8,8,280.0,2606.27,0,0,5,0,None
+2025-02-10,Monday,0,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,5,5,750.0,2606.27,26,8,3,0,Cash Constraint
+2025-02-10,Monday,0,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,7,3,84.0,2606.27,19,3,0,1,Cash Constraint
+2025-02-10,Monday,0,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,2,0,0.0,2606.27,0,0,0,1,Distributor Absent
+2025-02-11,Tuesday,1,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,24,24,1392.0,3432.55,24,24,3,0,None
+2025-02-11,Tuesday,1,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,14,14,420.0,3432.55,19,19,5,0,None
+2025-02-11,Tuesday,1,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,12,12,168.0,3432.55,49,49,37,0,None
+2025-02-11,Tuesday,1,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,13,16,16,160.0,3432.55,53,53,50,0,None
+2025-02-11,Tuesday,1,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,5,5,5,175.0,3432.55,0,0,0,0,None
+2025-02-11,Tuesday,1,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,8,3,450.0,3432.55,0,0,0,1,Distributor Absent
+2025-02-11,Tuesday,1,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,3432.55,0,0,0,1,Distributor Absent
+2025-02-11,Tuesday,1,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3432.55,0,0,0,1,Distributor Absent
+2025-02-12,Wednesday,2,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,25,25,1450.0,2603.44,24,24,2,0,None
+2025-02-12,Wednesday,2,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,10,10,300.0,2603.44,14,14,9,0,None
+2025-02-12,Wednesday,2,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,37,14,14,196.0,2603.44,0,0,23,0,None
+2025-02-12,Wednesday,2,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,50,24,24,240.0,2603.44,0,0,26,0,None
+2025-02-12,Wednesday,2,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,6,6,210.0,2603.44,38,35,29,0,Cash Constraint
+2025-02-12,Wednesday,2,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,2603.44,0,0,0,1,Distributor Absent
+2025-02-12,Wednesday,2,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2603.44,0,0,0,1,Distributor Absent
+2025-02-12,Wednesday,2,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,1,0,0.0,2603.44,13,0,0,1,Cash Constraint
+2025-02-13,Thursday,3,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,22,22,1276.0,5144.47,28,28,8,0,None
+2025-02-13,Thursday,3,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,9,21,21,630.0,5144.47,12,12,0,0,None
+2025-02-13,Thursday,3,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,23,17,17,238.0,5144.47,0,0,6,0,None
+2025-02-13,Thursday,3,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,26,14,14,140.0,5144.47,0,0,12,0,None
+2025-02-13,Thursday,3,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,29,6,6,210.0,5144.47,0,0,23,0,None
+2025-02-13,Thursday,3,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,9,9,1350.0,5144.47,38,25,16,0,Cash Constraint
+2025-02-13,Thursday,3,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,0,0.0,5144.47,29,0,0,1,Cash Constraint
+2025-02-13,Thursday,3,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,2,0,0.0,5144.47,0,0,0,1,Distributor Absent
+2025-02-14,Friday,4,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,8,29,27,1566.0,2663.13,19,19,0,1,Unexpected Demand Spike
+2025-02-14,Friday,4,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,21,19,570.0,2663.13,19,19,0,1,Unexpected Demand Spike
+2025-02-14,Friday,4,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,6,8,8,112.0,2663.13,60,60,58,0,None
+2025-02-14,Friday,4,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,12,25,25,250.0,2663.13,76,56,43,0,Cash Constraint
+2025-02-14,Friday,4,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,23,3,3,105.0,2663.13,0,0,20,0,None
+2025-02-14,Friday,4,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,16,4,4,600.0,2663.13,0,0,12,0,None
+2025-02-14,Friday,4,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2663.13,0,0,0,1,Distributor Absent
+2025-02-14,Friday,4,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,7,0,0.0,2663.13,0,0,0,1,Distributor Absent
+2025-02-15,Saturday,5,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,35,35,2030.0,4322.68,35,35,0,0,None
+2025-02-15,Saturday,5,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,21,21,630.0,4322.68,25,25,4,0,None
+2025-02-15,Saturday,5,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,58,19,19,266.0,4322.68,0,0,39,0,None
+2025-02-15,Saturday,5,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,43,30,30,300.0,4322.68,0,0,13,0,None
+2025-02-15,Saturday,5,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,20,4,4,140.0,4322.68,0,0,16,0,None
+2025-02-15,Saturday,5,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,12,14,12,1800.0,4322.68,0,0,0,1,Distributor Absent
+2025-02-15,Saturday,5,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,4322.68,0,0,0,1,Distributor Absent
+2025-02-15,Saturday,5,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,3,3,225.0,4322.68,22,22,19,0,None
+2025-02-16,Sunday,6,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,33,33,1914.0,3460.83,35,35,2,0,None
+2025-02-16,Sunday,6,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,21,21,630.0,3460.83,21,21,4,0,None
+2025-02-16,Sunday,6,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,39,20,20,280.0,3460.83,0,0,19,0,None
+2025-02-16,Sunday,6,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,13,19,13,130.0,3460.83,0,0,0,1,Distributor Absent
+2025-02-16,Sunday,6,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,16,10,10,350.0,3460.83,0,0,6,0,None
+2025-02-16,Sunday,6,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,6,0,0.0,3460.83,0,0,0,1,Distributor Absent
+2025-02-16,Sunday,6,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,3460.83,0,0,0,1,Distributor Absent
+2025-02-16,Sunday,6,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,19,7,7,525.0,3460.83,0,0,12,0,None
+2025-02-17,Monday,0,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,27,27,1566.0,2238.42,25,25,0,0,None
+2025-02-17,Monday,0,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,12,12,360.0,2238.42,15,15,7,0,None
+2025-02-17,Monday,0,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,19,18,18,252.0,2238.42,0,0,1,0,None
+2025-02-17,Monday,0,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,17,0,0.0,2238.42,0,0,0,1,Distributor Absent
+2025-02-17,Monday,0,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,6,4,4,140.0,2238.42,0,0,2,0,None
+2025-02-17,Monday,0,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,7,4,600.0,2238.42,26,4,0,1,Cash Constraint
+2025-02-17,Monday,0,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,12,1,28.0,2238.42,19,1,0,1,Cash Constraint
+2025-02-17,Monday,0,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,12,4,4,300.0,2238.42,0,0,8,0,None
+2025-02-18,Tuesday,1,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,19,19,1102.0,2664.83,27,27,8,0,None
+2025-02-18,Tuesday,1,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,7,18,18,540.0,2664.83,12,12,1,0,None
+2025-02-18,Tuesday,1,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,1,14,14,196.0,2664.83,48,48,35,0,None
+2025-02-18,Tuesday,1,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,20,20,200.0,2664.83,66,45,25,0,Cash Constraint
+2025-02-18,Tuesday,1,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,2,4,2,70.0,2664.83,0,0,0,1,Distributor Absent
+2025-02-18,Tuesday,1,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,12,0,0.0,2664.83,0,0,0,1,Distributor Absent
+2025-02-18,Tuesday,1,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,3,0,0.0,2664.83,0,0,0,1,Distributor Absent
+2025-02-18,Tuesday,1,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,3,3,225.0,2664.83,0,0,5,0,None
+2025-02-19,Wednesday,2,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,8,27,27,1566.0,3831.06,19,19,0,0,None
+2025-02-19,Wednesday,2,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,20,19,570.0,3831.06,18,18,0,1,Unexpected Demand Spike
+2025-02-19,Wednesday,2,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,35,17,17,238.0,3831.06,0,0,18,0,None
+2025-02-19,Wednesday,2,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,25,24,24,240.0,3831.06,0,0,1,0,None
+2025-02-19,Wednesday,2,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,8,8,280.0,3831.06,38,38,30,0,None
+2025-02-19,Wednesday,2,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,10,0,0.0,3831.06,0,0,0,1,Distributor Absent
+2025-02-19,Wednesday,2,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,3831.06,0,0,0,1,Distributor Absent
+2025-02-19,Wednesday,2,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,5,4,4,300.0,3831.06,8,8,9,0,None
+2025-02-20,Thursday,3,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,22,22,1276.0,2761.93,30,30,8,0,None
+2025-02-20,Thursday,3,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,18,18,540.0,2761.93,21,21,3,0,None
+2025-02-20,Thursday,3,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,18,18,18,252.0,2761.93,0,0,0,0,None
+2025-02-20,Thursday,3,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,1,24,1,10.0,2761.93,0,0,0,1,Distributor Absent
+2025-02-20,Thursday,3,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,30,3,3,105.0,2761.93,0,0,27,0,None
+2025-02-20,Thursday,3,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,6,5,750.0,2761.93,38,5,0,1,Cash Constraint
+2025-02-20,Thursday,3,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,10,0,0.0,2761.93,29,0,0,1,Cash Constraint
+2025-02-20,Thursday,3,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,9,11,9,675.0,2761.93,0,0,0,1,Distributor Absent
+2025-02-21,Friday,4,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,8,15,15,870.0,2873.24,19,19,12,0,None
+2025-02-21,Friday,4,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,22,19,570.0,2873.24,16,16,0,1,Unexpected Demand Spike
+2025-02-21,Friday,4,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,15,15,210.0,2873.24,66,66,51,0,None
+2025-02-21,Friday,4,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,17,17,170.0,2873.24,88,81,64,0,Cash Constraint
+2025-02-21,Friday,4,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,27,2,2,70.0,2873.24,0,0,25,0,None
+2025-02-21,Friday,4,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,10,0,0.0,2873.24,0,0,0,1,Distributor Absent
+2025-02-21,Friday,4,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,2873.24,0,0,0,1,Distributor Absent
+2025-02-21,Friday,4,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,2873.24,0,0,0,1,Distributor Absent
+2025-02-22,Saturday,5,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,12,29,29,1682.0,1524.5,23,23,6,0,None
+2025-02-22,Saturday,5,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,29,13,390.0,1524.5,25,13,0,1,Unexpected Demand Spike
+2025-02-22,Saturday,5,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,51,25,25,350.0,1524.5,0,0,26,0,None
+2025-02-22,Saturday,5,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,64,20,20,200.0,1524.5,0,0,44,0,None
+2025-02-22,Saturday,5,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,25,11,11,385.0,1524.5,0,0,14,0,None
+2025-02-22,Saturday,5,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,9,0,0.0,1524.5,0,0,0,1,Distributor Absent
+2025-02-22,Saturday,5,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,1524.5,0,0,0,1,Distributor Absent
+2025-02-22,Saturday,5,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,9,0,0.0,1524.5,22,0,0,1,Cash Constraint
+2025-02-23,Sunday,6,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,26,26,1508.0,3287.76,29,29,9,0,None
+2025-02-23,Sunday,6,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,31,25,750.0,3287.76,25,25,0,1,Unexpected Demand Spike
+2025-02-23,Sunday,6,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,26,29,26,364.0,3287.76,0,0,0,1,Distributor Absent
+2025-02-23,Sunday,6,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,44,23,23,230.0,3287.76,0,0,21,0,None
+2025-02-23,Sunday,6,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,14,4,4,140.0,3287.76,0,0,10,0,None
+2025-02-23,Sunday,6,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,10,0,0.0,3287.76,0,0,0,1,Distributor Absent
+2025-02-23,Sunday,6,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3287.76,0,0,0,1,Distributor Absent
+2025-02-23,Sunday,6,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,8,0,0.0,3287.76,0,0,0,1,Distributor Absent
+2025-02-24,Monday,0,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,9,27,27,1566.0,2828.62,18,18,0,0,None
+2025-02-24,Monday,0,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,21,19,570.0,2828.62,19,19,0,1,Unexpected Demand Spike
+2025-02-24,Monday,0,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,9,0,0.0,2828.62,0,0,0,1,Distributor Absent
+2025-02-24,Monday,0,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,21,19,19,190.0,2828.62,0,0,2,0,None
+2025-02-24,Monday,0,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,10,6,6,210.0,2828.62,0,0,4,0,None
+2025-02-24,Monday,0,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,9,9,1350.0,2828.62,26,10,1,0,Cash Constraint
+2025-02-24,Monday,0,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,3,84.0,2828.62,19,3,0,1,Cash Constraint
+2025-02-24,Monday,0,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,0,0,0.0,2828.62,0,0,0,0,None
+2025-02-25,Tuesday,1,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,26,26,1508.0,4415.26,27,27,1,0,None
+2025-02-25,Tuesday,1,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,24,19,570.0,4415.26,19,19,0,1,Unexpected Demand Spike
+2025-02-25,Tuesday,1,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,20,20,280.0,4415.26,49,49,29,0,None
+2025-02-25,Tuesday,1,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,2,19,19,190.0,4415.26,64,64,47,0,None
+2025-02-25,Tuesday,1,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,4,3,3,105.0,4415.26,0,0,1,0,None
+2025-02-25,Tuesday,1,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,1,5,1,150.0,4415.26,0,0,0,1,Distributor Absent
+2025-02-25,Tuesday,1,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,2,0,0.0,4415.26,0,0,0,1,Distributor Absent
+2025-02-25,Tuesday,1,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,2,0,0.0,4415.26,0,0,0,1,Distributor Absent
+2025-02-26,Wednesday,2,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,34,27,1566.0,3707.98,26,26,0,1,Unexpected Demand Spike
+2025-02-26,Wednesday,2,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,18,18,540.0,3707.98,19,19,1,0,None
+2025-02-26,Wednesday,2,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,29,15,15,210.0,3707.98,0,0,14,0,None
+2025-02-26,Wednesday,2,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,47,19,19,190.0,3707.98,0,0,28,0,None
+2025-02-26,Wednesday,2,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,1,3,3,105.0,3707.98,37,37,35,0,None
+2025-02-26,Wednesday,2,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,3707.98,0,0,0,1,Distributor Absent
+2025-02-26,Wednesday,2,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,3707.98,0,0,0,1,Distributor Absent
+2025-02-26,Wednesday,2,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,7,7,525.0,3707.98,13,12,5,0,Cash Constraint
+2025-02-27,Thursday,3,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,29,29,1682.0,3421.31,30,30,1,0,None
+2025-02-27,Thursday,3,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,20,20,600.0,3421.31,20,20,1,0,None
+2025-02-27,Thursday,3,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,14,13,13,182.0,3421.31,0,0,1,0,None
+2025-02-27,Thursday,3,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,28,16,16,160.0,3421.31,0,0,12,0,None
+2025-02-27,Thursday,3,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,35,2,2,70.0,3421.31,0,0,33,0,None
+2025-02-27,Thursday,3,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,7,7,1050.0,3421.31,38,10,3,0,Cash Constraint
+2025-02-27,Thursday,3,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,4,0,0.0,3421.31,29,0,0,1,Cash Constraint
+2025-02-27,Thursday,3,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,5,4,4,300.0,3421.31,0,0,1,0,None
+2025-02-28,Friday,4,2,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,18,18,1044.0,3642.41,26,26,9,0,None
+2025-02-28,Friday,4,2,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,20,19,570.0,3642.41,18,18,0,1,Unexpected Demand Spike
+2025-02-28,Friday,4,2,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,1,19,19,266.0,3642.41,65,65,47,0,None
+2025-02-28,Friday,4,2,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,12,19,19,190.0,3642.41,76,76,69,0,None
+2025-02-28,Friday,4,2,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,33,3,3,105.0,3642.41,0,0,30,0,None
+2025-02-28,Friday,4,2,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,4,3,450.0,3642.41,0,0,0,1,Distributor Absent
+2025-02-28,Friday,4,2,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,3642.41,0,0,0,1,Distributor Absent
+2025-02-28,Friday,4,2,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,1,1,1,75.0,3642.41,0,0,0,0,None
+2025-03-01,Saturday,5,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,9,34,34,1972.0,2597.0,26,26,1,0,None
+2025-03-01,Saturday,5,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,2597.0,25,25,8,0,None
+2025-03-01,Saturday,5,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,47,22,22,308.0,2597.0,0,0,25,0,None
+2025-03-01,Saturday,5,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,69,22,22,220.0,2597.0,0,0,47,0,None
+2025-03-01,Saturday,5,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,30,3,3,105.0,2597.0,0,0,27,0,None
+2025-03-01,Saturday,5,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,6,0,0.0,2597.0,0,0,0,1,Distributor Absent
+2025-03-01,Saturday,5,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2597.0,0,0,0,1,Distributor Absent
+2025-03-01,Saturday,5,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,7,7,525.0,2597.0,22,9,2,0,Cash Constraint
+2025-03-02,Sunday,6,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,29,22,1276.0,1092.71,34,21,0,1,Unexpected Demand Spike
+2025-03-02,Sunday,6,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,8,27,8,240.0,1092.71,17,0,0,1,Unexpected Demand Spike
+2025-03-02,Sunday,6,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,25,20,20,280.0,1092.71,0,0,5,0,None
+2025-03-02,Sunday,6,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,47,28,28,280.0,1092.71,0,0,19,0,None
+2025-03-02,Sunday,6,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,27,3,3,105.0,1092.71,0,0,24,0,None
+2025-03-02,Sunday,6,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,7,0,0.0,1092.71,0,0,0,1,Distributor Absent
+2025-03-02,Sunday,6,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,1092.71,0,0,0,1,Distributor Absent
+2025-03-02,Sunday,6,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,2,5,2,150.0,1092.71,0,0,0,1,Distributor Absent
+2025-03-03,Monday,0,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,22,22,1276.0,4058.25,27,27,5,0,None
+2025-03-03,Monday,0,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,19,19,570.0,4058.25,19,19,0,0,None
+2025-03-03,Monday,0,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,5,19,5,70.0,4058.25,0,0,0,1,Distributor Absent
+2025-03-03,Monday,0,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,19,18,18,180.0,4058.25,0,0,1,0,None
+2025-03-03,Monday,0,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,24,2,2,70.0,4058.25,0,0,22,0,None
+2025-03-03,Monday,0,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,5,5,750.0,4058.25,26,16,11,0,Cash Constraint
+2025-03-03,Monday,0,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,7,0,0.0,4058.25,19,0,0,1,Cash Constraint
+2025-03-03,Monday,0,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,4058.25,0,0,0,1,Distributor Absent
+2025-03-04,Tuesday,1,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,19,19,1102.0,2454.58,22,22,8,0,None
+2025-03-04,Tuesday,1,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,19,19,570.0,2454.58,19,19,0,0,None
+2025-03-04,Tuesday,1,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,15,15,210.0,2454.58,49,49,34,0,None
+2025-03-04,Tuesday,1,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,1,18,18,180.0,2454.58,65,29,12,0,Cash Constraint
+2025-03-04,Tuesday,1,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,22,6,6,210.0,2454.58,0,0,16,0,None
+2025-03-04,Tuesday,1,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,11,6,6,900.0,2454.58,0,0,5,0,None
+2025-03-04,Tuesday,1,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,3,0,0.0,2454.58,0,0,0,1,Distributor Absent
+2025-03-04,Tuesday,1,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,1,0,0.0,2454.58,0,0,0,1,Distributor Absent
+2025-03-05,Wednesday,2,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,8,37,27,1566.0,4244.52,19,19,0,1,Unexpected Demand Spike
+2025-03-05,Wednesday,2,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,16,16,480.0,4244.52,19,19,3,0,None
+2025-03-05,Wednesday,2,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,34,13,13,182.0,4244.52,0,0,21,0,None
+2025-03-05,Wednesday,2,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,12,14,12,120.0,4244.52,0,0,0,1,Distributor Absent
+2025-03-05,Wednesday,2,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,16,5,5,175.0,4244.52,22,22,33,0,None
+2025-03-05,Wednesday,2,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,5,4,4,600.0,4244.52,0,0,1,0,None
+2025-03-05,Wednesday,2,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,11,0,0.0,4244.52,0,0,0,1,Distributor Absent
+2025-03-05,Wednesday,2,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,4,300.0,4244.52,13,13,9,0,None
+2025-03-06,Thursday,3,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,31,30,1740.0,5311.26,30,30,0,1,Unexpected Demand Spike
+2025-03-06,Thursday,3,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,18,18,540.0,5311.26,18,18,3,0,None
+2025-03-06,Thursday,3,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,21,17,17,238.0,5311.26,0,0,4,0,None
+2025-03-06,Thursday,3,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,18,0,0.0,5311.26,0,0,0,1,Distributor Absent
+2025-03-06,Thursday,3,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,33,3,3,105.0,5311.26,0,0,30,0,None
+2025-03-06,Thursday,3,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,1,6,6,900.0,5311.26,37,24,19,0,Cash Constraint
+2025-03-06,Thursday,3,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,4,2,56.0,5311.26,29,2,0,1,Cash Constraint
+2025-03-06,Thursday,3,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,9,2,2,150.0,5311.26,0,0,7,0,None
+2025-03-07,Friday,4,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,17,17,986.0,3364.97,27,27,10,0,None
+2025-03-07,Friday,4,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,11,11,330.0,3364.97,16,16,8,0,None
+2025-03-07,Friday,4,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,4,15,15,210.0,3364.97,62,62,51,0,None
+2025-03-07,Friday,4,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,18,18,180.0,3364.97,88,88,70,0,None
+2025-03-07,Friday,4,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,30,8,8,280.0,3364.97,0,0,22,0,None
+2025-03-07,Friday,4,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,19,6,6,900.0,3364.97,0,0,13,0,None
+2025-03-07,Friday,4,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3364.97,0,0,0,1,Distributor Absent
+2025-03-07,Friday,4,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,7,2,2,150.0,3364.97,0,0,5,0,None
+2025-03-08,Saturday,5,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,10,31,31,1798.0,1672.94,25,25,4,0,None
+2025-03-08,Saturday,5,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,8,22,22,660.0,1672.94,17,14,0,0,None
+2025-03-08,Saturday,5,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,51,11,11,154.0,1672.94,0,0,40,0,None
+2025-03-08,Saturday,5,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,70,24,24,240.0,1672.94,0,0,46,0,None
+2025-03-08,Saturday,5,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,22,11,11,385.0,1672.94,0,0,11,0,None
+2025-03-08,Saturday,5,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,13,5,5,750.0,1672.94,0,0,8,0,None
+2025-03-08,Saturday,5,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,11,0,0.0,1672.94,0,0,0,1,Distributor Absent
+2025-03-08,Saturday,5,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,5,1,1,75.0,1672.94,17,0,4,0,Cash Constraint
+2025-03-09,Sunday,6,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,38,35,2030.0,3856.81,31,31,0,1,Unexpected Demand Spike
+2025-03-09,Sunday,6,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,30,25,750.0,3856.81,25,25,0,1,Unexpected Demand Spike
+2025-03-09,Sunday,6,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,40,26,26,364.0,3856.81,0,0,14,0,None
+2025-03-09,Sunday,6,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,46,31,31,310.0,3856.81,0,0,15,0,None
+2025-03-09,Sunday,6,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,11,3,3,105.0,3856.81,0,0,8,0,None
+2025-03-09,Sunday,6,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,8,7,7,1050.0,3856.81,0,0,1,0,None
+2025-03-09,Sunday,6,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,3856.81,0,0,0,1,Distributor Absent
+2025-03-09,Sunday,6,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,4,8,4,300.0,3856.81,0,0,0,1,Distributor Absent
+2025-03-10,Monday,0,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,30,27,1566.0,4589.41,27,27,0,1,Unexpected Demand Spike
+2025-03-10,Monday,0,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,16,16,480.0,4589.41,19,19,3,0,None
+2025-03-10,Monday,0,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,14,12,12,168.0,4589.41,0,0,2,0,None
+2025-03-10,Monday,0,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,15,21,15,150.0,4589.41,0,0,0,1,Distributor Absent
+2025-03-10,Monday,0,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,8,4,4,140.0,4589.41,0,0,4,0,None
+2025-03-10,Monday,0,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,1,10,10,1500.0,4589.41,25,20,11,0,Cash Constraint
+2025-03-10,Monday,0,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,0,0.0,4589.41,19,0,0,1,Cash Constraint
+2025-03-10,Monday,0,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,6,0,0.0,4589.41,0,0,0,1,Distributor Absent
+2025-03-11,Tuesday,1,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,32,27,1566.0,2740.51,27,27,0,1,Unexpected Demand Spike
+2025-03-11,Tuesday,1,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,27,19,570.0,2740.51,16,16,0,1,Unexpected Demand Spike
+2025-03-11,Tuesday,1,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,2,16,16,224.0,2740.51,47,47,33,0,None
+2025-03-11,Tuesday,1,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,29,29,290.0,2740.51,66,43,14,0,Cash Constraint
+2025-03-11,Tuesday,1,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,4,8,4,140.0,2740.51,0,0,0,1,Distributor Absent
+2025-03-11,Tuesday,1,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,11,7,7,1050.0,2740.51,0,0,4,0,None
+2025-03-11,Tuesday,1,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,2740.51,0,0,0,1,Distributor Absent
+2025-03-11,Tuesday,1,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,2,0,0.0,2740.51,0,0,0,1,Distributor Absent
+2025-03-12,Wednesday,2,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,31,27,1566.0,2640.15,27,27,0,1,Unexpected Demand Spike
+2025-03-12,Wednesday,2,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,20,19,570.0,2640.15,19,19,0,1,Unexpected Demand Spike
+2025-03-12,Wednesday,2,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,33,23,23,322.0,2640.15,0,0,10,0,None
+2025-03-12,Wednesday,2,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,14,22,14,140.0,2640.15,0,0,0,1,Distributor Absent
+2025-03-12,Wednesday,2,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,8,8,280.0,2640.15,38,27,19,0,Cash Constraint
+2025-03-12,Wednesday,2,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,4,8,4,600.0,2640.15,0,0,0,1,Distributor Absent
+2025-03-12,Wednesday,2,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,2640.15,0,0,0,1,Distributor Absent
+2025-03-12,Wednesday,2,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,0,0.0,2640.15,13,0,0,1,Cash Constraint
+2025-03-13,Thursday,3,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,29,29,1682.0,3698.08,30,30,1,0,None
+2025-03-13,Thursday,3,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,24,21,630.0,3698.08,21,21,0,1,Unexpected Demand Spike
+2025-03-13,Thursday,3,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,10,14,10,140.0,3698.08,0,0,0,1,Distributor Absent
+2025-03-13,Thursday,3,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,25,0,0.0,3698.08,0,0,0,1,Distributor Absent
+2025-03-13,Thursday,3,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,19,4,4,140.0,3698.08,0,0,15,0,None
+2025-03-13,Thursday,3,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,12,11,1650.0,3698.08,38,11,0,1,Cash Constraint
+2025-03-13,Thursday,3,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,13,5,140.0,3698.08,29,5,0,1,Cash Constraint
+2025-03-13,Thursday,3,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3698.08,0,0,0,1,Distributor Absent
+2025-03-14,Friday,4,3,1,Milk_1L,Dairy,52.0,58.0,10.34,1,1,30,30,1740.0,2427.2,37,37,8,0,None
+2025-03-14,Friday,4,3,1,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,24,20,600.0,2427.2,27,20,0,1,Unexpected Demand Spike
+2025-03-14,Friday,4,3,1,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,20,0,0.0,2427.2,92,0,0,1,Cash Constraint
+2025-03-14,Friday,4,3,1,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,22,0,0.0,2427.2,123,0,0,1,Cash Constraint
+2025-03-14,Friday,4,3,1,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,15,12,12,420.0,2427.2,0,0,3,0,None
+2025-03-14,Friday,4,3,1,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,2427.2,0,0,0,1,Distributor Absent
+2025-03-14,Friday,4,3,1,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,2427.2,0,0,0,1,Distributor Absent
+2025-03-14,Friday,4,3,1,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,7,0,0.0,2427.2,0,0,0,1,Distributor Absent
+2025-03-15,Saturday,5,3,1,Milk_1L,Dairy,52.0,58.0,10.34,1,8,47,47,2726.0,4329.1,42,42,3,0,None
+2025-03-15,Saturday,5,3,1,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,25,25,750.0,4329.1,36,36,11,0,None
+2025-03-15,Saturday,5,3,1,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,26,0,0.0,4329.1,0,0,0,1,Distributor Absent
+2025-03-15,Saturday,5,3,1,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,36,0,0.0,4329.1,0,0,0,1,Distributor Absent
+2025-03-15,Saturday,5,3,1,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,3,12,3,105.0,4329.1,0,0,0,1,Distributor Absent
+2025-03-15,Saturday,5,3,1,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,14,0,0.0,4329.1,0,0,0,1,Distributor Absent
+2025-03-15,Saturday,5,3,1,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,4329.1,0,0,0,1,Distributor Absent
+2025-03-15,Saturday,5,3,1,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,12,12,900.0,4329.1,32,19,7,0,Cash Constraint
+2025-03-16,Sunday,6,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,23,23,1334.0,3810.23,32,32,12,0,None
+2025-03-16,Sunday,6,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,11,19,19,570.0,3810.23,14,14,6,0,None
+2025-03-16,Sunday,6,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,22,0,0.0,3810.23,0,0,0,1,Distributor Absent
+2025-03-16,Sunday,6,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,27,0,0.0,3810.23,0,0,0,1,Distributor Absent
+2025-03-16,Sunday,6,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,6,0,0.0,3810.23,0,0,0,1,Distributor Absent
+2025-03-16,Sunday,6,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,5,0,0.0,3810.23,0,0,0,1,Distributor Absent
+2025-03-16,Sunday,6,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,3810.23,0,0,0,1,Distributor Absent
+2025-03-16,Sunday,6,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,7,6,6,450.0,3810.23,0,0,1,0,None
+2025-03-17,Monday,0,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,12,23,23,1334.0,2500.16,15,15,4,0,None
+2025-03-17,Monday,0,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,20,19,570.0,2500.16,13,13,0,1,Unexpected Demand Spike
+2025-03-17,Monday,0,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,16,0,0.0,2500.16,0,0,0,1,Distributor Absent
+2025-03-17,Monday,0,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,22,0,0.0,2500.16,0,0,0,1,Distributor Absent
+2025-03-17,Monday,0,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,5,0,0.0,2500.16,0,0,0,1,Distributor Absent
+2025-03-17,Monday,0,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,10,10,1500.0,2500.16,26,10,0,0,Cash Constraint
+2025-03-17,Monday,0,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,6,2,56.0,2500.16,19,2,0,1,Cash Constraint
+2025-03-17,Monday,0,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,1,8,1,75.0,2500.16,0,0,0,1,Distributor Absent
+2025-03-18,Tuesday,1,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,28,27,1566.0,4100.13,23,23,0,1,Unexpected Demand Spike
+2025-03-18,Tuesday,1,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,20,19,570.0,4100.13,19,19,0,1,Unexpected Demand Spike
+2025-03-18,Tuesday,1,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,16,16,224.0,4100.13,49,49,33,0,None
+2025-03-18,Tuesday,1,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,23,23,230.0,4100.13,66,66,43,0,None
+2025-03-18,Tuesday,1,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,8,0,0.0,4100.13,0,0,0,1,Distributor Absent
+2025-03-18,Tuesday,1,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,4100.13,0,0,0,1,Distributor Absent
+2025-03-18,Tuesday,1,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,4100.13,0,0,0,1,Distributor Absent
+2025-03-18,Tuesday,1,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,4100.13,0,0,0,1,Distributor Absent
+2025-03-19,Wednesday,2,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,18,18,1044.0,2546.97,27,27,9,0,None
+2025-03-19,Wednesday,2,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,13,13,390.0,2546.97,19,19,6,0,None
+2025-03-19,Wednesday,2,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,33,15,15,210.0,2546.97,0,0,18,0,None
+2025-03-19,Wednesday,2,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,43,30,30,300.0,2546.97,0,0,13,0,None
+2025-03-19,Wednesday,2,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,4,4,140.0,2546.97,38,23,19,0,Cash Constraint
+2025-03-19,Wednesday,2,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,6,0,0.0,2546.97,0,0,0,1,Distributor Absent
+2025-03-19,Wednesday,2,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,2546.97,0,0,0,1,Distributor Absent
+2025-03-19,Wednesday,2,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,0,0.0,2546.97,13,0,0,1,Cash Constraint
+2025-03-20,Thursday,3,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,9,30,30,1740.0,1631.98,21,21,0,0,None
+2025-03-20,Thursday,3,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,23,21,630.0,1631.98,15,15,0,1,Unexpected Demand Spike
+2025-03-20,Thursday,3,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,18,16,16,224.0,1631.98,0,0,2,0,None
+2025-03-20,Thursday,3,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,13,17,13,130.0,1631.98,0,0,0,1,Distributor Absent
+2025-03-20,Thursday,3,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,19,5,5,175.0,1631.98,0,0,14,0,None
+2025-03-20,Thursday,3,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,8,1,150.0,1631.98,38,1,0,1,Cash Constraint
+2025-03-20,Thursday,3,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,5,1,28.0,1631.98,29,1,0,1,Cash Constraint
+2025-03-20,Thursday,3,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,6,0,0.0,1631.98,0,0,0,1,Distributor Absent
+2025-03-21,Friday,4,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,30,27,1566.0,3092.63,27,27,0,1,Unexpected Demand Spike
+2025-03-21,Friday,4,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,3092.63,19,19,2,0,None
+2025-03-21,Friday,4,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,2,23,23,322.0,3092.63,64,64,43,0,None
+2025-03-21,Friday,4,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,21,21,210.0,3092.63,88,52,31,0,Cash Constraint
+2025-03-21,Friday,4,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,14,6,6,210.0,3092.63,0,0,8,0,None
+2025-03-21,Friday,4,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,5,0,0.0,3092.63,0,0,0,1,Distributor Absent
+2025-03-21,Friday,4,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,3092.63,0,0,0,1,Distributor Absent
+2025-03-21,Friday,4,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3092.63,0,0,0,1,Distributor Absent
+2025-03-22,Saturday,5,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,35,35,2030.0,2172.89,35,35,0,0,None
+2025-03-22,Saturday,5,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,20,16,480.0,2172.89,23,14,0,1,Unexpected Demand Spike
+2025-03-22,Saturday,5,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,43,22,22,308.0,2172.89,0,0,21,0,None
+2025-03-22,Saturday,5,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,31,32,31,310.0,2172.89,0,0,0,1,Distributor Absent
+2025-03-22,Saturday,5,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,8,7,7,245.0,2172.89,0,0,1,0,None
+2025-03-22,Saturday,5,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,7,0,0.0,2172.89,0,0,0,1,Distributor Absent
+2025-03-22,Saturday,5,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,2172.89,0,0,0,1,Distributor Absent
+2025-03-22,Saturday,5,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,1,0,0.0,2172.89,22,0,0,1,Cash Constraint
+2025-03-23,Sunday,6,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,47,35,2030.0,3274.84,35,35,0,1,Unexpected Demand Spike
+2025-03-23,Sunday,6,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,32,25,750.0,3274.84,25,25,0,1,Unexpected Demand Spike
+2025-03-23,Sunday,6,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,21,15,15,210.0,3274.84,0,0,6,0,None
+2025-03-23,Sunday,6,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,27,0,0.0,3274.84,0,0,0,1,Distributor Absent
+2025-03-23,Sunday,6,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,1,2,1,35.0,3274.84,0,0,0,1,Distributor Absent
+2025-03-23,Sunday,6,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,9,0,0.0,3274.84,0,0,0,1,Distributor Absent
+2025-03-23,Sunday,6,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3274.84,0,0,0,1,Distributor Absent
+2025-03-23,Sunday,6,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,5,0,0.0,3274.84,0,0,0,1,Distributor Absent
+2025-03-24,Monday,0,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,25,25,1450.0,1966.31,27,27,2,0,None
+2025-03-24,Monday,0,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,20,19,570.0,1966.31,19,19,0,1,Unexpected Demand Spike
+2025-03-24,Monday,0,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,6,20,6,84.0,1966.31,0,0,0,1,Distributor Absent
+2025-03-24,Monday,0,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,18,0,0.0,1966.31,0,0,0,1,Distributor Absent
+2025-03-24,Monday,0,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,5,0,0.0,1966.31,0,0,0,1,Distributor Absent
+2025-03-24,Monday,0,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,6,0,0.0,1966.31,26,0,0,1,Cash Constraint
+2025-03-24,Monday,0,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,3,84.0,1966.31,19,3,0,1,Cash Constraint
+2025-03-24,Monday,0,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,1966.31,0,0,0,1,Distributor Absent
+2025-03-25,Tuesday,1,3,1,Milk_1L,Dairy,52.0,58.0,10.34,1,2,32,32,1856.0,2993.6,36,36,6,0,None
+2025-03-25,Tuesday,1,3,1,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,28,27,810.0,2993.6,27,27,0,1,Unexpected Demand Spike
+2025-03-25,Tuesday,1,3,1,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,23,23,322.0,2993.6,69,37,14,0,Cash Constraint
+2025-03-25,Tuesday,1,3,1,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,24,0,0.0,2993.6,92,0,0,1,Cash Constraint
+2025-03-25,Tuesday,1,3,1,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,6,0,0.0,2993.6,0,0,0,1,Distributor Absent
+2025-03-25,Tuesday,1,3,1,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,2993.6,0,0,0,1,Distributor Absent
+2025-03-25,Tuesday,1,3,1,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,2993.6,0,0,0,1,Distributor Absent
+2025-03-25,Tuesday,1,3,1,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,7,0,0.0,2993.6,0,0,0,1,Distributor Absent
+2025-03-26,Wednesday,2,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,32,27,1566.0,2878.14,21,21,0,1,Unexpected Demand Spike
+2025-03-26,Wednesday,2,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,2878.14,19,19,2,0,None
+2025-03-26,Wednesday,2,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,14,17,14,196.0,2878.14,0,0,0,1,Distributor Absent
+2025-03-26,Wednesday,2,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,18,0,0.0,2878.14,0,0,0,1,Distributor Absent
+2025-03-26,Wednesday,2,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,2,2,70.0,2878.14,38,38,36,0,None
+2025-03-26,Wednesday,2,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,5,0,0.0,2878.14,0,0,0,1,Distributor Absent
+2025-03-26,Wednesday,2,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,3,0,0.0,2878.14,0,0,0,1,Distributor Absent
+2025-03-26,Wednesday,2,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,3,225.0,2878.14,13,3,0,1,Cash Constraint
+2025-03-27,Thursday,3,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,35,30,1740.0,3675.9,30,30,0,1,Unexpected Demand Spike
+2025-03-27,Thursday,3,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,17,17,510.0,3675.9,19,19,4,0,None
+2025-03-27,Thursday,3,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,17,0,0.0,3675.9,0,0,0,1,Distributor Absent
+2025-03-27,Thursday,3,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,23,0,0.0,3675.9,0,0,0,1,Distributor Absent
+2025-03-27,Thursday,3,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,36,8,8,280.0,3675.9,0,0,28,0,None
+2025-03-27,Thursday,3,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,13,12,1800.0,3675.9,38,12,0,1,Cash Constraint
+2025-03-27,Thursday,3,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,6,0,0.0,3675.9,29,0,0,1,Cash Constraint
+2025-03-27,Thursday,3,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,7,0,0.0,3675.9,0,0,0,1,Distributor Absent
+2025-03-28,Friday,4,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,29,27,1566.0,2048.77,27,27,0,1,Unexpected Demand Spike
+2025-03-28,Friday,4,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,19,19,570.0,2048.77,15,15,0,0,None
+2025-03-28,Friday,4,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,19,19,266.0,2048.77,66,22,3,0,Cash Constraint
+2025-03-28,Friday,4,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,21,0,0.0,2048.77,88,0,0,1,Cash Constraint
+2025-03-28,Friday,4,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,28,7,7,245.0,2048.77,0,0,21,0,None
+2025-03-28,Friday,4,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,6,0,0.0,2048.77,0,0,0,1,Distributor Absent
+2025-03-28,Friday,4,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,2048.77,0,0,0,1,Distributor Absent
+2025-03-28,Friday,4,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,1,0,0.0,2048.77,0,0,0,1,Distributor Absent
+2025-03-29,Saturday,5,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,28,28,1624.0,1664.11,35,32,4,0,None
+2025-03-29,Saturday,5,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,22,0,0.0,1664.11,25,0,0,1,Unexpected Demand Spike
+2025-03-29,Saturday,5,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,3,22,3,42.0,1664.11,0,0,0,1,Distributor Absent
+2025-03-29,Saturday,5,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,22,0,0.0,1664.11,0,0,0,1,Distributor Absent
+2025-03-29,Saturday,5,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,21,11,11,385.0,1664.11,0,0,10,0,None
+2025-03-29,Saturday,5,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,13,0,0.0,1664.11,0,0,0,1,Distributor Absent
+2025-03-29,Saturday,5,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,12,0,0.0,1664.11,0,0,0,1,Distributor Absent
+2025-03-29,Saturday,5,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,5,0,0.0,1664.11,22,0,0,1,Cash Constraint
+2025-03-30,Sunday,6,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,27,27,1566.0,3490.44,31,31,8,0,None
+2025-03-30,Sunday,6,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,19,19,570.0,3490.44,25,25,6,0,None
+2025-03-30,Sunday,6,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,19,0,0.0,3490.44,0,0,0,1,Distributor Absent
+2025-03-30,Sunday,6,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,25,0,0.0,3490.44,0,0,0,1,Distributor Absent
+2025-03-30,Sunday,6,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,10,5,5,175.0,3490.44,0,0,5,0,None
+2025-03-30,Sunday,6,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,3490.44,0,0,0,1,Distributor Absent
+2025-03-30,Sunday,6,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,3490.44,0,0,0,1,Distributor Absent
+2025-03-30,Sunday,6,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,11,0,0.0,3490.44,0,0,0,1,Distributor Absent
+2025-03-31,Monday,0,3,0,Milk_1L,Dairy,52.0,58.0,10.34,1,8,34,27,1566.0,3542.73,19,19,0,1,Unexpected Demand Spike
+2025-03-31,Monday,0,3,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,27,19,570.0,3542.73,13,13,0,1,Unexpected Demand Spike
+2025-03-31,Monday,0,3,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,15,0,0.0,3542.73,0,0,0,1,Distributor Absent
+2025-03-31,Monday,0,3,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,19,0,0.0,3542.73,0,0,0,1,Distributor Absent
+2025-03-31,Monday,0,3,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,5,3,3,105.0,3542.73,0,0,2,0,None
+2025-03-31,Monday,0,3,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,4,4,600.0,3542.73,26,16,12,0,Cash Constraint
+2025-03-31,Monday,0,3,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,6,3,84.0,3542.73,19,3,0,1,Cash Constraint
+2025-03-31,Monday,0,3,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,8,0,0.0,3542.73,0,0,0,1,Distributor Absent
+2025-04-01,Tuesday,1,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,20,20,1160.0,4105.72,27,27,7,0,None
+2025-04-01,Tuesday,1,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,26,19,570.0,4105.72,19,19,0,1,Unexpected Demand Spike
+2025-04-01,Tuesday,1,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,18,18,252.0,4105.72,49,49,31,0,None
+2025-04-01,Tuesday,1,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,21,21,210.0,4105.72,66,66,45,0,None
+2025-04-01,Tuesday,1,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,2,4,2,70.0,4105.72,0,0,0,1,Distributor Absent
+2025-04-01,Tuesday,1,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,12,9,9,1350.0,4105.72,0,0,3,0,None
+2025-04-01,Tuesday,1,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,4105.72,0,0,0,1,Distributor Absent
+2025-04-01,Tuesday,1,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,4105.72,0,0,0,1,Distributor Absent
+2025-04-02,Wednesday,2,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,7,12,12,696.0,2840.55,20,20,15,0,None
+2025-04-02,Wednesday,2,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,11,11,330.0,2840.55,19,19,8,0,None
+2025-04-02,Wednesday,2,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,31,16,16,224.0,2840.55,0,0,15,0,None
+2025-04-02,Wednesday,2,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,45,10,10,100.0,2840.55,0,0,35,0,None
+2025-04-02,Wednesday,2,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,5,5,175.0,2840.55,38,38,33,0,None
+2025-04-02,Wednesday,2,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,13,3,450.0,2840.55,0,0,0,1,Distributor Absent
+2025-04-02,Wednesday,2,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2840.55,0,0,0,1,Distributor Absent
+2025-04-02,Wednesday,2,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,6,4,300.0,2840.55,13,4,0,1,Cash Constraint
+2025-04-03,Thursday,3,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,15,30,30,1740.0,3505.14,15,15,0,0,None
+2025-04-03,Thursday,3,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,8,25,21,630.0,3505.14,13,13,0,1,Unexpected Demand Spike
+2025-04-03,Thursday,3,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,15,14,14,196.0,3505.14,0,0,1,0,None
+2025-04-03,Thursday,3,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,35,22,22,220.0,3505.14,0,0,13,0,None
+2025-04-03,Thursday,3,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,33,5,5,175.0,3505.14,0,0,28,0,None
+2025-04-03,Thursday,3,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,5,5,750.0,3505.14,38,17,12,0,Cash Constraint
+2025-04-03,Thursday,3,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,12,4,112.0,3505.14,29,4,0,1,Cash Constraint
+2025-04-03,Thursday,3,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3505.14,0,0,0,1,Distributor Absent
+2025-04-04,Friday,4,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,26,26,1508.0,1714.99,27,27,1,0,None
+2025-04-04,Friday,4,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,14,12,360.0,1714.99,19,12,0,1,Unexpected Demand Spike
+2025-04-04,Friday,4,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,1,13,1,14.0,1714.99,65,0,0,1,Cash Constraint
+2025-04-04,Friday,4,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,13,24,14,140.0,1714.99,75,1,0,1,Cash Constraint
+2025-04-04,Friday,4,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,28,5,5,175.0,1714.99,0,0,23,0,None
+2025-04-04,Friday,4,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,12,5,5,750.0,1714.99,0,0,7,0,None
+2025-04-04,Friday,4,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,1714.99,0,0,0,1,Distributor Absent
+2025-04-04,Friday,4,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,1714.99,0,0,0,1,Distributor Absent
+2025-04-05,Saturday,5,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,31,31,1798.0,3678.1,34,34,4,0,None
+2025-04-05,Saturday,5,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,13,13,390.0,3678.1,25,25,12,0,None
+2025-04-05,Saturday,5,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,22,0,0.0,3678.1,0,0,0,1,Distributor Absent
+2025-04-05,Saturday,5,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,31,0,0.0,3678.1,0,0,0,1,Distributor Absent
+2025-04-05,Saturday,5,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,23,8,8,280.0,3678.1,0,0,15,0,None
+2025-04-05,Saturday,5,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,7,10,7,1050.0,3678.1,0,0,0,1,Distributor Absent
+2025-04-05,Saturday,5,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,3678.1,0,0,0,1,Distributor Absent
+2025-04-05,Saturday,5,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,7,7,525.0,3678.1,22,19,12,0,Cash Constraint
+2025-04-06,Sunday,6,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,35,35,2030.0,2980.81,31,31,0,0,None
+2025-04-06,Sunday,6,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,12,20,20,600.0,2980.81,13,13,5,0,None
+2025-04-06,Sunday,6,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,21,0,0.0,2980.81,0,0,0,1,Distributor Absent
+2025-04-06,Sunday,6,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,34,0,0.0,2980.81,0,0,0,1,Distributor Absent
+2025-04-06,Sunday,6,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,15,6,6,210.0,2980.81,0,0,9,0,None
+2025-04-06,Sunday,6,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,2980.81,0,0,0,1,Distributor Absent
+2025-04-06,Sunday,6,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,2980.81,0,0,0,1,Distributor Absent
+2025-04-06,Sunday,6,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,12,6,6,450.0,2980.81,0,0,6,0,None
+2025-04-07,Monday,0,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,24,24,1392.0,3391.18,27,27,3,0,None
+2025-04-07,Monday,0,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,15,15,450.0,3391.18,14,14,4,0,None
+2025-04-07,Monday,0,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,21,0,0.0,3391.18,0,0,0,1,Distributor Absent
+2025-04-07,Monday,0,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,20,0,0.0,3391.18,0,0,0,1,Distributor Absent
+2025-04-07,Monday,0,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,9,6,6,210.0,3391.18,0,0,3,0,None
+2025-04-07,Monday,0,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,10,10,1500.0,3391.18,26,12,2,0,Cash Constraint
+2025-04-07,Monday,0,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,0,0.0,3391.18,19,0,0,1,Cash Constraint
+2025-04-07,Monday,0,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,6,5,5,375.0,3391.18,0,0,1,0,None
+2025-04-08,Tuesday,1,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,26,26,1508.0,3169.26,24,24,1,0,None
+2025-04-08,Tuesday,1,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,22,19,570.0,3169.26,15,15,0,1,Unexpected Demand Spike
+2025-04-08,Tuesday,1,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,22,22,308.0,3169.26,49,49,27,0,None
+2025-04-08,Tuesday,1,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,21,21,210.0,3169.26,66,66,45,0,None
+2025-04-08,Tuesday,1,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,3,6,3,105.0,3169.26,0,0,0,1,Distributor Absent
+2025-04-08,Tuesday,1,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,2,7,2,300.0,3169.26,0,0,0,1,Distributor Absent
+2025-04-08,Tuesday,1,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,3169.26,0,0,0,1,Distributor Absent
+2025-04-08,Tuesday,1,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,1,5,1,75.0,3169.26,0,0,0,1,Distributor Absent
+2025-04-09,Wednesday,2,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,17,17,986.0,2766.86,26,26,10,0,None
+2025-04-09,Wednesday,2,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,19,19,570.0,2766.86,19,19,0,0,None
+2025-04-09,Wednesday,2,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,27,22,22,308.0,2766.86,0,0,5,0,None
+2025-04-09,Wednesday,2,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,45,14,14,140.0,2766.86,0,0,31,0,None
+2025-04-09,Wednesday,2,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,4,4,140.0,2766.86,38,33,29,0,Cash Constraint
+2025-04-09,Wednesday,2,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,2766.86,0,0,0,1,Distributor Absent
+2025-04-09,Wednesday,2,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2766.86,0,0,0,1,Distributor Absent
+2025-04-09,Wednesday,2,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,3,0,0.0,2766.86,13,0,0,1,Cash Constraint
+2025-04-10,Thursday,3,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,10,26,26,1508.0,3838.09,20,20,4,0,None
+2025-04-10,Thursday,3,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,14,14,420.0,3838.09,21,21,7,0,None
+2025-04-10,Thursday,3,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,5,14,5,70.0,3838.09,0,0,0,1,Distributor Absent
+2025-04-10,Thursday,3,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,31,24,24,240.0,3838.09,0,0,7,0,None
+2025-04-10,Thursday,3,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,29,3,3,105.0,3838.09,0,0,26,0,None
+2025-04-10,Thursday,3,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,8,8,1200.0,3838.09,38,16,8,0,Cash Constraint
+2025-04-10,Thursday,3,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,9,5,140.0,3838.09,29,5,0,1,Cash Constraint
+2025-04-10,Thursday,3,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3838.09,0,0,0,1,Distributor Absent
+2025-04-11,Friday,4,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,24,24,1392.0,3775.8,23,23,3,0,None
+2025-04-11,Friday,4,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,7,13,13,390.0,3775.8,12,12,6,0,None
+2025-04-11,Friday,4,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,18,18,252.0,3775.8,66,66,48,0,None
+2025-04-11,Friday,4,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,7,20,20,200.0,3775.8,81,81,68,0,None
+2025-04-11,Friday,4,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,26,7,7,245.0,3775.8,0,0,19,0,None
+2025-04-11,Friday,4,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,8,5,5,750.0,3775.8,0,0,3,0,None
+2025-04-11,Friday,4,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,3775.8,0,0,0,1,Distributor Absent
+2025-04-11,Friday,4,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,3775.8,0,0,0,1,Distributor Absent
+2025-04-12,Saturday,5,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,29,29,1682.0,3404.83,32,32,6,0,None
+2025-04-12,Saturday,5,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,23,23,690.0,3404.83,19,19,2,0,None
+2025-04-12,Saturday,5,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,48,13,13,182.0,3404.83,0,0,35,0,None
+2025-04-12,Saturday,5,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,68,22,22,220.0,3404.83,0,0,46,0,None
+2025-04-12,Saturday,5,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,19,7,7,245.0,3404.83,0,0,12,0,None
+2025-04-12,Saturday,5,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,13,3,450.0,3404.83,0,0,0,1,Distributor Absent
+2025-04-12,Saturday,5,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,3404.83,0,0,0,1,Distributor Absent
+2025-04-12,Saturday,5,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,5,5,375.0,3404.83,22,19,14,0,Cash Constraint
+2025-04-13,Sunday,6,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,6,34,34,1972.0,2970.95,29,29,1,0,None
+2025-04-13,Sunday,6,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,17,17,510.0,2970.95,23,23,8,0,None
+2025-04-13,Sunday,6,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,35,16,16,224.0,2970.95,0,0,19,0,None
+2025-04-13,Sunday,6,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,46,26,26,260.0,2970.95,0,0,20,0,None
+2025-04-13,Sunday,6,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,12,7,7,245.0,2970.95,0,0,5,0,None
+2025-04-13,Sunday,6,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,2970.95,0,0,0,1,Distributor Absent
+2025-04-13,Sunday,6,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,13,0,0.0,2970.95,0,0,0,1,Distributor Absent
+2025-04-13,Sunday,6,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,14,6,6,450.0,2970.95,0,0,8,0,None
+2025-04-14,Monday,0,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,27,27,1566.0,3551.98,26,26,0,0,None
+2025-04-14,Monday,0,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,8,9,9,270.0,3551.98,11,11,10,0,None
+2025-04-14,Monday,0,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,19,16,16,224.0,3551.98,0,0,3,0,None
+2025-04-14,Monday,0,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,20,22,20,200.0,3551.98,0,0,0,1,Distributor Absent
+2025-04-14,Monday,0,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,5,4,4,140.0,3551.98,0,0,1,0,None
+2025-04-14,Monday,0,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,12,12,1800.0,3551.98,26,14,2,0,Cash Constraint
+2025-04-14,Monday,0,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,4,1,28.0,3551.98,19,1,0,1,Cash Constraint
+2025-04-14,Monday,0,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,5,5,375.0,3551.98,0,0,3,0,None
+2025-04-15,Tuesday,1,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,22,22,1276.0,1822.86,27,27,5,0,None
+2025-04-15,Tuesday,1,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,10,21,19,570.0,1822.86,9,9,0,1,Unexpected Demand Spike
+2025-04-15,Tuesday,1,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,3,23,19,266.0,1822.86,46,16,0,1,Cash Constraint
+2025-04-15,Tuesday,1,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,24,0,0.0,1822.86,66,0,0,1,Cash Constraint
+2025-04-15,Tuesday,1,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,1,10,1,35.0,1822.86,0,0,0,1,Distributor Absent
+2025-04-15,Tuesday,1,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,2,13,2,300.0,1822.86,0,0,0,1,Distributor Absent
+2025-04-15,Tuesday,1,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,1822.86,0,0,0,1,Distributor Absent
+2025-04-15,Tuesday,1,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,3,3,3,225.0,1822.86,0,0,0,0,None
+2025-04-16,Wednesday,2,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,25,25,1450.0,3688.0,22,22,2,0,None
+2025-04-16,Wednesday,2,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,15,15,450.0,3688.0,19,19,4,0,None
+2025-04-16,Wednesday,2,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,15,0,0.0,3688.0,0,0,0,1,Distributor Absent
+2025-04-16,Wednesday,2,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,17,0,0.0,3688.0,0,0,0,1,Distributor Absent
+2025-04-16,Wednesday,2,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,5,5,175.0,3688.0,38,38,33,0,None
+2025-04-16,Wednesday,2,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,3688.0,0,0,0,1,Distributor Absent
+2025-04-16,Wednesday,2,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,3688.0,0,0,0,1,Distributor Absent
+2025-04-16,Wednesday,2,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,1,1,75.0,3688.0,13,13,12,0,None
+2025-04-17,Thursday,3,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,21,21,1218.0,3168.29,28,28,9,0,None
+2025-04-17,Thursday,3,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,22,21,630.0,3168.29,17,17,0,1,Unexpected Demand Spike
+2025-04-17,Thursday,3,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,15,0,0.0,3168.29,0,0,0,1,Distributor Absent
+2025-04-17,Thursday,3,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,26,0,0.0,3168.29,0,0,0,1,Distributor Absent
+2025-04-17,Thursday,3,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,33,3,3,105.0,3168.29,0,0,30,0,None
+2025-04-17,Thursday,3,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,3,3,450.0,3168.29,38,9,6,0,Cash Constraint
+2025-04-17,Thursday,3,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,10,3,84.0,3168.29,29,3,0,1,Cash Constraint
+2025-04-17,Thursday,3,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,12,4,4,300.0,3168.29,0,0,8,0,None
+2025-04-18,Friday,4,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,9,26,26,1508.0,3617.33,18,18,1,0,None
+2025-04-18,Friday,4,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,27,19,570.0,3617.33,19,19,0,1,Unexpected Demand Spike
+2025-04-18,Friday,4,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,11,11,154.0,3617.33,66,66,55,0,None
+2025-04-18,Friday,4,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,16,16,160.0,3617.33,88,88,72,0,None
+2025-04-18,Friday,4,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,30,7,7,245.0,3617.33,0,0,23,0,None
+2025-04-18,Friday,4,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,6,9,6,900.0,3617.33,0,0,0,1,Distributor Absent
+2025-04-18,Friday,4,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3617.33,0,0,0,1,Distributor Absent
+2025-04-18,Friday,4,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,2,2,150.0,3617.33,0,0,6,0,None
+2025-04-19,Saturday,5,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,23,23,1334.0,2663.25,34,34,12,0,None
+2025-04-19,Saturday,5,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,22,22,660.0,2663.25,25,25,3,0,None
+2025-04-19,Saturday,5,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,55,24,24,336.0,2663.25,0,0,31,0,None
+2025-04-19,Saturday,5,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,72,23,23,230.0,2663.25,0,0,49,0,None
+2025-04-19,Saturday,5,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,23,4,4,140.0,2663.25,0,0,19,0,None
+2025-04-19,Saturday,5,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,13,0,0.0,2663.25,0,0,0,1,Distributor Absent
+2025-04-19,Saturday,5,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,14,0,0.0,2663.25,0,0,0,1,Distributor Absent
+2025-04-19,Saturday,5,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,6,4,4,300.0,2663.25,16,4,6,0,Cash Constraint
+2025-04-20,Sunday,6,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,12,24,24,1392.0,3077.32,23,23,11,0,None
+2025-04-20,Sunday,6,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,22,22,660.0,3077.32,22,22,3,0,None
+2025-04-20,Sunday,6,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,31,13,13,182.0,3077.32,0,0,18,0,None
+2025-04-20,Sunday,6,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,49,29,29,290.0,3077.32,0,0,20,0,None
+2025-04-20,Sunday,6,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,19,5,5,175.0,3077.32,0,0,14,0,None
+2025-04-20,Sunday,6,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,3077.32,0,0,0,1,Distributor Absent
+2025-04-20,Sunday,6,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,12,0,0.0,3077.32,0,0,0,1,Distributor Absent
+2025-04-20,Sunday,6,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,6,8,6,450.0,3077.32,0,0,0,1,Distributor Absent
+2025-04-21,Monday,0,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,11,22,22,1276.0,2723.47,16,16,5,0,None
+2025-04-21,Monday,0,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,10,10,300.0,2723.47,16,16,9,0,None
+2025-04-21,Monday,0,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,18,14,14,196.0,2723.47,0,0,4,0,None
+2025-04-21,Monday,0,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,20,26,20,200.0,2723.47,0,0,0,1,Distributor Absent
+2025-04-21,Monday,0,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,14,2,2,70.0,2723.47,0,0,12,0,None
+2025-04-21,Monday,0,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,8,8,1200.0,2723.47,26,11,3,0,Cash Constraint
+2025-04-21,Monday,0,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,9,0,0.0,2723.47,19,0,0,1,Cash Constraint
+2025-04-21,Monday,0,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,2723.47,0,0,0,1,Distributor Absent
+2025-04-22,Tuesday,1,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,22,22,1276.0,2241.08,22,22,5,0,None
+2025-04-22,Tuesday,1,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,9,23,19,570.0,2241.08,10,10,0,1,Unexpected Demand Spike
+2025-04-22,Tuesday,1,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,4,17,17,238.0,2241.08,45,45,32,0,None
+2025-04-22,Tuesday,1,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,19,19,190.0,2241.08,66,36,17,0,Cash Constraint
+2025-04-22,Tuesday,1,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,12,4,4,140.0,2241.08,0,0,8,0,None
+2025-04-22,Tuesday,1,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,5,3,450.0,2241.08,0,0,0,1,Distributor Absent
+2025-04-22,Tuesday,1,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2241.08,0,0,0,1,Distributor Absent
+2025-04-22,Tuesday,1,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,2,0,0.0,2241.08,0,0,0,1,Distributor Absent
+2025-04-23,Wednesday,2,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,22,22,1276.0,1787.77,22,22,5,0,None
+2025-04-23,Wednesday,2,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,23,19,570.0,1787.77,19,19,0,1,Unexpected Demand Spike
+2025-04-23,Wednesday,2,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,32,14,14,196.0,1787.77,0,0,18,0,None
+2025-04-23,Wednesday,2,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,17,17,17,170.0,1787.77,0,0,0,0,None
+2025-04-23,Wednesday,2,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,8,7,7,245.0,1787.77,30,6,7,0,Cash Constraint
+2025-04-23,Wednesday,2,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,3,0,0.0,1787.77,0,0,0,1,Distributor Absent
+2025-04-23,Wednesday,2,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,1787.77,0,0,0,1,Distributor Absent
+2025-04-23,Wednesday,2,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,0,0.0,1787.77,13,0,0,1,Cash Constraint
+2025-04-24,Thursday,3,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,27,27,1566.0,1338.4,25,25,3,0,None
+2025-04-24,Thursday,3,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,1,30.0,1338.4,21,1,0,1,Unexpected Demand Spike
+2025-04-24,Thursday,3,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,18,11,11,154.0,1338.4,0,0,7,0,None
+2025-04-24,Thursday,3,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,31,0,0.0,1338.4,0,0,0,1,Distributor Absent
+2025-04-24,Thursday,3,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,7,4,4,140.0,1338.4,0,0,3,0,None
+2025-04-24,Thursday,3,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,11,0,0.0,1338.4,38,0,0,1,Cash Constraint
+2025-04-24,Thursday,3,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,6,0,0.0,1338.4,29,0,0,1,Cash Constraint
+2025-04-24,Thursday,3,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,1338.4,0,0,0,1,Distributor Absent
+2025-04-25,Friday,4,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,19,19,1102.0,2437.36,24,24,8,0,None
+2025-04-25,Friday,4,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,23,19,570.0,2437.36,19,19,0,1,Unexpected Demand Spike
+2025-04-25,Friday,4,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,7,13,13,182.0,2437.36,59,59,53,0,None
+2025-04-25,Friday,4,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,28,0,0.0,2437.36,88,0,0,1,Cash Constraint
+2025-04-25,Friday,4,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,3,4,3,105.0,2437.36,0,0,0,1,Distributor Absent
+2025-04-25,Friday,4,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,5,0,0.0,2437.36,0,0,0,1,Distributor Absent
+2025-04-25,Friday,4,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,2437.36,0,0,0,1,Distributor Absent
+2025-04-25,Friday,4,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,2,0,0.0,2437.36,0,0,0,1,Distributor Absent
+2025-04-26,Saturday,5,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,8,36,35,2030.0,3818.43,27,27,0,1,Unexpected Demand Spike
+2025-04-26,Saturday,5,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,27,25,750.0,3818.43,25,25,0,1,Unexpected Demand Spike
+2025-04-26,Saturday,5,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,53,30,30,420.0,3818.43,0,0,23,0,None
+2025-04-26,Saturday,5,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,24,0,0.0,3818.43,0,0,0,1,Distributor Absent
+2025-04-26,Saturday,5,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,7,0,0.0,3818.43,0,0,0,1,Distributor Absent
+2025-04-26,Saturday,5,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,10,0,0.0,3818.43,0,0,0,1,Distributor Absent
+2025-04-26,Saturday,5,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3818.43,0,0,0,1,Distributor Absent
+2025-04-26,Saturday,5,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,4,300.0,3818.43,22,22,18,0,None
+2025-04-27,Sunday,6,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,31,31,1798.0,2693.01,35,35,4,0,None
+2025-04-27,Sunday,6,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,25,25,750.0,2693.01,25,25,0,0,None
+2025-04-27,Sunday,6,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,23,25,23,322.0,2693.01,0,0,0,1,Distributor Absent
+2025-04-27,Sunday,6,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,23,0,0.0,2693.01,0,0,0,1,Distributor Absent
+2025-04-27,Sunday,6,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,6,0,0.0,2693.01,0,0,0,1,Distributor Absent
+2025-04-27,Sunday,6,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,2693.01,0,0,0,1,Distributor Absent
+2025-04-27,Sunday,6,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,2693.01,0,0,0,1,Distributor Absent
+2025-04-27,Sunday,6,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,18,6,6,450.0,2693.01,0,0,12,0,None
+2025-04-28,Monday,0,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,19,19,1102.0,3099.22,23,23,8,0,None
+2025-04-28,Monday,0,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,18,18,540.0,3099.22,19,19,1,0,None
+2025-04-28,Monday,0,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,22,0,0.0,3099.22,0,0,0,1,Distributor Absent
+2025-04-28,Monday,0,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,19,0,0.0,3099.22,0,0,0,1,Distributor Absent
+2025-04-28,Monday,0,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,4,0,0.0,3099.22,0,0,0,1,Distributor Absent
+2025-04-28,Monday,0,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,7,7,1050.0,3099.22,26,10,3,0,Cash Constraint
+2025-04-28,Monday,0,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,5,3,84.0,3099.22,19,3,0,1,Cash Constraint
+2025-04-28,Monday,0,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,12,4,4,300.0,3099.22,0,0,8,0,None
+2025-04-29,Tuesday,1,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,8,29,27,1566.0,2035.18,19,19,0,1,Unexpected Demand Spike
+2025-04-29,Tuesday,1,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,23,19,570.0,2035.18,18,18,0,1,Unexpected Demand Spike
+2025-04-29,Tuesday,1,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,17,17,238.0,2035.18,49,49,32,0,None
+2025-04-29,Tuesday,1,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,28,1,10.0,2035.18,66,1,0,1,Cash Constraint
+2025-04-29,Tuesday,1,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,9,0,0.0,2035.18,0,0,0,1,Distributor Absent
+2025-04-29,Tuesday,1,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,7,3,450.0,2035.18,0,0,0,1,Distributor Absent
+2025-04-29,Tuesday,1,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,2035.18,0,0,0,1,Distributor Absent
+2025-04-29,Tuesday,1,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,2,2,150.0,2035.18,0,0,6,0,None
+2025-04-30,Wednesday,2,4,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,31,27,1566.0,3872.76,27,27,0,1,Unexpected Demand Spike
+2025-04-30,Wednesday,2,4,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,3872.76,19,19,2,0,None
+2025-04-30,Wednesday,2,4,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,32,18,18,252.0,3872.76,0,0,14,0,None
+2025-04-30,Wednesday,2,4,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,15,0,0.0,3872.76,0,0,0,1,Distributor Absent
+2025-04-30,Wednesday,2,4,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,7,7,245.0,3872.76,38,38,31,0,None
+2025-04-30,Wednesday,2,4,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,3,0,0.0,3872.76,0,0,0,1,Distributor Absent
+2025-04-30,Wednesday,2,4,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,1,0,0.0,3872.76,0,0,0,1,Distributor Absent
+2025-04-30,Wednesday,2,4,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,6,4,4,300.0,3872.76,7,7,9,0,None
+2025-05-01,Thursday,3,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,28,28,1624.0,2402.91,30,30,2,0,None
+2025-05-01,Thursday,3,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,20,20,600.0,2402.91,19,19,1,0,None
+2025-05-01,Thursday,3,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,14,10,10,140.0,2402.91,0,0,4,0,None
+2025-05-01,Thursday,3,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,18,0,0.0,2402.91,0,0,0,1,Distributor Absent
+2025-05-01,Thursday,3,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,31,5,5,175.0,2402.91,0,0,26,0,None
+2025-05-01,Thursday,3,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,7,2,300.0,2402.91,38,2,0,1,Cash Constraint
+2025-05-01,Thursday,3,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,4,112.0,2402.91,29,4,0,1,Cash Constraint
+2025-05-01,Thursday,3,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,9,5,5,375.0,2402.91,0,0,4,0,None
+2025-05-02,Friday,4,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,32,27,1566.0,3758.6,25,25,0,1,Unexpected Demand Spike
+2025-05-02,Friday,4,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,11,11,330.0,3758.6,18,18,8,0,None
+2025-05-02,Friday,4,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,4,23,23,322.0,3758.6,62,62,43,0,None
+2025-05-02,Friday,4,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,24,24,240.0,3758.6,88,88,64,0,None
+2025-05-02,Friday,4,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,26,2,2,70.0,3758.6,0,0,24,0,None
+2025-05-02,Friday,4,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,6,0,0.0,3758.6,0,0,0,1,Distributor Absent
+2025-05-02,Friday,4,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3758.6,0,0,0,1,Distributor Absent
+2025-05-02,Friday,4,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,4,3,3,225.0,3758.6,0,0,1,0,None
+2025-05-03,Saturday,5,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,35,35,2030.0,3525.51,35,35,0,0,None
+2025-05-03,Saturday,5,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,8,19,19,570.0,3525.51,17,17,6,0,None
+2025-05-03,Saturday,5,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,43,25,25,350.0,3525.51,0,0,18,0,None
+2025-05-03,Saturday,5,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,64,31,31,310.0,3525.51,0,0,33,0,None
+2025-05-03,Saturday,5,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,24,8,8,280.0,3525.51,0,0,16,0,None
+2025-05-03,Saturday,5,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,4,0,0.0,3525.51,0,0,0,1,Distributor Absent
+2025-05-03,Saturday,5,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,12,0,0.0,3525.51,0,0,0,1,Distributor Absent
+2025-05-03,Saturday,5,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,1,8,8,600.0,3525.51,21,19,12,0,Cash Constraint
+2025-05-04,Sunday,6,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,36,35,2030.0,4188.46,35,35,0,1,Unexpected Demand Spike
+2025-05-04,Sunday,6,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,25,25,750.0,4188.46,19,19,0,0,None
+2025-05-04,Sunday,6,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,18,21,18,252.0,4188.46,0,0,0,1,Distributor Absent
+2025-05-04,Sunday,6,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,33,28,28,280.0,4188.46,0,0,5,0,None
+2025-05-04,Sunday,6,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,16,9,9,315.0,4188.46,0,0,7,0,None
+2025-05-04,Sunday,6,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,4188.46,0,0,0,1,Distributor Absent
+2025-05-04,Sunday,6,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,3,0,0.0,4188.46,0,0,0,1,Distributor Absent
+2025-05-04,Sunday,6,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,12,6,6,450.0,4188.46,0,0,6,0,None
+2025-05-05,Monday,0,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,37,27,1566.0,2276.48,27,27,0,1,Unexpected Demand Spike
+2025-05-05,Monday,0,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,22,19,570.0,2276.48,19,19,0,1,Unexpected Demand Spike
+2025-05-05,Monday,0,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,13,0,0.0,2276.48,0,0,0,1,Distributor Absent
+2025-05-05,Monday,0,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,5,19,5,50.0,2276.48,0,0,0,1,Distributor Absent
+2025-05-05,Monday,0,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,7,2,2,70.0,2276.48,0,0,5,0,None
+2025-05-05,Monday,0,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,12,2,300.0,2276.48,26,2,0,1,Cash Constraint
+2025-05-05,Monday,0,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,10,5,140.0,2276.48,19,5,0,1,Cash Constraint
+2025-05-05,Monday,0,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,6,1,1,75.0,2276.48,0,0,5,0,None
+2025-05-06,Tuesday,1,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,18,18,1044.0,2007.47,27,27,9,0,None
+2025-05-06,Tuesday,1,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,15,15,450.0,2007.47,19,19,4,0,None
+2025-05-06,Tuesday,1,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,21,10,140.0,2007.47,49,10,0,1,Cash Constraint
+2025-05-06,Tuesday,1,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,18,0,0.0,2007.47,66,0,0,1,Cash Constraint
+2025-05-06,Tuesday,1,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,5,4,4,140.0,2007.47,0,0,1,0,None
+2025-05-06,Tuesday,1,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,9,0,0.0,2007.47,0,0,0,1,Distributor Absent
+2025-05-06,Tuesday,1,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,2007.47,0,0,0,1,Distributor Absent
+2025-05-06,Tuesday,1,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,5,4,4,300.0,2007.47,0,0,1,0,None
+2025-05-07,Wednesday,2,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,9,28,27,1566.0,4230.1,18,18,0,1,Unexpected Demand Spike
+2025-05-07,Wednesday,2,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,21,19,570.0,4230.1,15,15,0,1,Unexpected Demand Spike
+2025-05-07,Wednesday,2,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,17,0,0.0,4230.1,0,0,0,1,Distributor Absent
+2025-05-07,Wednesday,2,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,26,0,0.0,4230.1,0,0,0,1,Distributor Absent
+2025-05-07,Wednesday,2,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,1,5,5,175.0,4230.1,37,37,33,0,None
+2025-05-07,Wednesday,2,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,9,0,0.0,4230.1,0,0,0,1,Distributor Absent
+2025-05-07,Wednesday,2,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,4230.1,0,0,0,1,Distributor Absent
+2025-05-07,Wednesday,2,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,1,7,7,525.0,4230.1,12,12,6,0,None
+2025-05-08,Thursday,3,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,20,20,1160.0,3708.35,30,30,10,0,None
+2025-05-08,Thursday,3,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,3708.35,21,21,4,0,None
+2025-05-08,Thursday,3,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,14,0,0.0,3708.35,0,0,0,1,Distributor Absent
+2025-05-08,Thursday,3,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,17,0,0.0,3708.35,0,0,0,1,Distributor Absent
+2025-05-08,Thursday,3,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,33,7,7,245.0,3708.35,0,0,26,0,None
+2025-05-08,Thursday,3,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,9,9,1350.0,3708.35,38,12,3,0,Cash Constraint
+2025-05-08,Thursday,3,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,10,0,0.0,3708.35,29,0,0,1,Cash Constraint
+2025-05-08,Thursday,3,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,6,3,3,225.0,3708.35,0,0,3,0,None
+2025-05-09,Friday,4,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,10,24,24,1392.0,5366.6,17,17,3,0,None
+2025-05-09,Friday,4,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,13,13,390.0,5366.6,15,15,6,0,None
+2025-05-09,Friday,4,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,22,22,308.0,5366.6,66,66,44,0,None
+2025-05-09,Friday,4,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,15,15,150.0,5366.6,88,88,73,0,None
+2025-05-09,Friday,4,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,26,8,8,280.0,5366.6,0,0,18,0,None
+2025-05-09,Friday,4,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,6,3,450.0,5366.6,0,0,0,1,Distributor Absent
+2025-05-09,Friday,4,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,5366.6,0,0,0,1,Distributor Absent
+2025-05-09,Friday,4,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,3,3,3,225.0,5366.6,0,0,0,0,None
+2025-05-10,Saturday,5,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,30,30,1740.0,4642.79,32,32,5,0,None
+2025-05-10,Saturday,5,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,23,23,690.0,4642.79,19,19,2,0,None
+2025-05-10,Saturday,5,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,44,18,18,252.0,4642.79,0,0,26,0,None
+2025-05-10,Saturday,5,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,73,28,28,280.0,4642.79,0,0,45,0,None
+2025-05-10,Saturday,5,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,18,5,5,175.0,4642.79,0,0,13,0,None
+2025-05-10,Saturday,5,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,12,0,0.0,4642.79,0,0,0,1,Distributor Absent
+2025-05-10,Saturday,5,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,4642.79,0,0,0,1,Distributor Absent
+2025-05-10,Saturday,5,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,3,3,225.0,4642.79,22,22,19,0,None
+2025-05-11,Sunday,6,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,40,35,2030.0,3136.12,30,30,0,1,Unexpected Demand Spike
+2025-05-11,Sunday,6,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,23,23,690.0,3136.12,23,23,2,0,None
+2025-05-11,Sunday,6,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,26,15,15,210.0,3136.12,0,0,11,0,None
+2025-05-11,Sunday,6,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,45,26,26,260.0,3136.12,0,0,19,0,None
+2025-05-11,Sunday,6,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,13,8,8,280.0,3136.12,0,0,5,0,None
+2025-05-11,Sunday,6,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,14,0,0.0,3136.12,0,0,0,1,Distributor Absent
+2025-05-11,Sunday,6,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3136.12,0,0,0,1,Distributor Absent
+2025-05-11,Sunday,6,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,19,2,2,150.0,3136.12,0,0,17,0,None
+2025-05-12,Monday,0,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,32,27,1566.0,2361.73,27,27,0,1,Unexpected Demand Spike
+2025-05-12,Monday,0,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,14,14,420.0,2361.73,17,17,5,0,None
+2025-05-12,Monday,0,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,11,20,11,154.0,2361.73,0,0,0,1,Distributor Absent
+2025-05-12,Monday,0,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,19,24,19,190.0,2361.73,0,0,0,1,Distributor Absent
+2025-05-12,Monday,0,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,5,7,5,175.0,2361.73,0,0,0,1,Distributor Absent
+2025-05-12,Monday,0,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,8,3,450.0,2361.73,26,3,0,1,Cash Constraint
+2025-05-12,Monday,0,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,3,3,84.0,2361.73,19,5,2,0,Cash Constraint
+2025-05-12,Monday,0,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,17,5,5,375.0,2361.73,0,0,12,0,None
+2025-05-13,Tuesday,1,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,28,27,1566.0,3692.72,27,27,0,1,Unexpected Demand Spike
+2025-05-13,Tuesday,1,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,17,17,510.0,3692.72,14,14,2,0,None
+2025-05-13,Tuesday,1,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,14,14,196.0,3692.72,49,49,35,0,None
+2025-05-13,Tuesday,1,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,22,22,220.0,3692.72,66,66,44,0,None
+2025-05-13,Tuesday,1,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,2,0,0.0,3692.72,0,0,0,1,Distributor Absent
+2025-05-13,Tuesday,1,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,5,0,0.0,3692.72,0,0,0,1,Distributor Absent
+2025-05-13,Tuesday,1,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,2,4,2,56.0,3692.72,0,0,0,1,Distributor Absent
+2025-05-13,Tuesday,1,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,12,6,6,450.0,3692.72,0,0,6,0,None
+2025-05-14,Wednesday,2,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,29,27,1566.0,1496.0,27,27,0,1,Unexpected Demand Spike
+2025-05-14,Wednesday,2,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,18,5,150.0,1496.0,17,3,0,1,Unexpected Demand Spike
+2025-05-14,Wednesday,2,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,35,19,19,266.0,1496.0,0,0,16,0,None
+2025-05-14,Wednesday,2,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,44,18,18,180.0,1496.0,0,0,26,0,None
+2025-05-14,Wednesday,2,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,2,0,0.0,1496.0,38,0,0,1,Cash Constraint
+2025-05-14,Wednesday,2,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,1496.0,0,0,0,1,Distributor Absent
+2025-05-14,Wednesday,2,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,1496.0,0,0,0,1,Distributor Absent
+2025-05-14,Wednesday,2,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,6,3,3,225.0,1496.0,7,0,3,0,Cash Constraint
+2025-05-15,Thursday,3,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,35,30,1740.0,3277.62,30,30,0,1,Unexpected Demand Spike
+2025-05-15,Thursday,3,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,18,18,540.0,3277.62,21,21,3,0,None
+2025-05-15,Thursday,3,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,16,21,16,224.0,3277.62,0,0,0,1,Distributor Absent
+2025-05-15,Thursday,3,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,26,23,23,230.0,3277.62,0,0,3,0,None
+2025-05-15,Thursday,3,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,3,0,0.0,3277.62,0,0,0,1,Distributor Absent
+2025-05-15,Thursday,3,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,8,8,1200.0,3277.62,38,8,0,0,Cash Constraint
+2025-05-15,Thursday,3,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,7,5,140.0,3277.62,29,5,0,1,Cash Constraint
+2025-05-15,Thursday,3,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,3,5,3,225.0,3277.62,0,0,0,1,Distributor Absent
+2025-05-16,Friday,4,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,37,27,1566.0,3650.62,27,27,0,1,Unexpected Demand Spike
+2025-05-16,Friday,4,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,23,19,570.0,3650.62,16,16,0,1,Unexpected Demand Spike
+2025-05-16,Friday,4,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,17,17,238.0,3650.62,66,66,49,0,None
+2025-05-16,Friday,4,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,3,24,24,240.0,3650.62,85,85,64,0,None
+2025-05-16,Friday,4,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,3,0,0.0,3650.62,0,0,0,1,Distributor Absent
+2025-05-16,Friday,4,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,7,0,0.0,3650.62,0,0,0,1,Distributor Absent
+2025-05-16,Friday,4,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,3650.62,0,0,0,1,Distributor Absent
+2025-05-16,Friday,4,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3650.62,0,0,0,1,Distributor Absent
+2025-05-17,Saturday,5,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,31,31,1798.0,2989.52,35,35,4,0,None
+2025-05-17,Saturday,5,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,25,25,750.0,2989.52,25,25,0,0,None
+2025-05-17,Saturday,5,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,49,24,24,336.0,2989.52,0,0,25,0,None
+2025-05-17,Saturday,5,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,64,32,32,320.0,2989.52,0,0,32,0,None
+2025-05-17,Saturday,5,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,8,0,0.0,2989.52,0,0,0,1,Distributor Absent
+2025-05-17,Saturday,5,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,9,0,0.0,2989.52,0,0,0,1,Distributor Absent
+2025-05-17,Saturday,5,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,2989.52,0,0,0,1,Distributor Absent
+2025-05-17,Saturday,5,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,6,6,450.0,2989.52,22,8,2,0,Cash Constraint
+2025-05-18,Sunday,6,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,50,35,2030.0,3315.75,31,31,0,1,Unexpected Demand Spike
+2025-05-18,Sunday,6,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,28,25,750.0,3315.75,25,25,0,1,Unexpected Demand Spike
+2025-05-18,Sunday,6,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,25,12,12,168.0,3315.75,0,0,13,0,None
+2025-05-18,Sunday,6,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,32,21,21,210.0,3315.75,0,0,11,0,None
+2025-05-18,Sunday,6,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,10,0,0.0,3315.75,0,0,0,1,Distributor Absent
+2025-05-18,Sunday,6,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,3315.75,0,0,0,1,Distributor Absent
+2025-05-18,Sunday,6,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,3315.75,0,0,0,1,Distributor Absent
+2025-05-18,Sunday,6,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,2,6,2,150.0,3315.75,0,0,0,1,Distributor Absent
+2025-05-19,Monday,0,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,25,25,1450.0,4115.41,27,27,2,0,None
+2025-05-19,Monday,0,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,14,14,420.0,4115.41,19,19,5,0,None
+2025-05-19,Monday,0,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,13,16,13,182.0,4115.41,0,0,0,1,Distributor Absent
+2025-05-19,Monday,0,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,11,21,11,110.0,4115.41,0,0,0,1,Distributor Absent
+2025-05-19,Monday,0,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,5,0,0.0,4115.41,0,0,0,1,Distributor Absent
+2025-05-19,Monday,0,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,9,9,1350.0,4115.41,26,16,7,0,Cash Constraint
+2025-05-19,Monday,0,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,3,3,84.0,4115.41,19,3,0,0,Cash Constraint
+2025-05-19,Monday,0,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,6,0,0.0,4115.41,0,0,0,1,Distributor Absent
+2025-05-20,Tuesday,1,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,25,25,1450.0,2338.69,25,25,2,0,None
+2025-05-20,Tuesday,1,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,19,19,570.0,2338.69,14,14,0,0,None
+2025-05-20,Tuesday,1,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,14,14,196.0,2338.69,49,49,35,0,None
+2025-05-20,Tuesday,1,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,24,11,110.0,2338.69,66,11,0,1,Cash Constraint
+2025-05-20,Tuesday,1,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,7,0,0.0,2338.69,0,0,0,1,Distributor Absent
+2025-05-20,Tuesday,1,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,7,14,7,1050.0,2338.69,0,0,0,1,Distributor Absent
+2025-05-20,Tuesday,1,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2338.69,0,0,0,1,Distributor Absent
+2025-05-20,Tuesday,1,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,5,0,0.0,2338.69,0,0,0,1,Distributor Absent
+2025-05-21,Wednesday,2,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,31,27,1566.0,2791.14,25,25,0,1,Unexpected Demand Spike
+2025-05-21,Wednesday,2,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,13,13,390.0,2791.14,19,19,6,0,None
+2025-05-21,Wednesday,2,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,35,12,12,168.0,2791.14,0,0,23,0,None
+2025-05-21,Wednesday,2,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,14,0,0.0,2791.14,0,0,0,1,Distributor Absent
+2025-05-21,Wednesday,2,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,4,4,140.0,2791.14,38,36,32,0,Cash Constraint
+2025-05-21,Wednesday,2,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,2791.14,0,0,0,1,Distributor Absent
+2025-05-21,Wednesday,2,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,2,0,0.0,2791.14,0,0,0,1,Distributor Absent
+2025-05-21,Wednesday,2,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,6,0,0.0,2791.14,13,0,0,1,Cash Constraint
+2025-05-22,Thursday,3,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,23,23,1334.0,3418.96,30,30,7,0,None
+2025-05-22,Thursday,3,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,22,21,630.0,3418.96,15,15,0,1,Unexpected Demand Spike
+2025-05-22,Thursday,3,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,23,24,23,322.0,3418.96,0,0,0,1,Distributor Absent
+2025-05-22,Thursday,3,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,22,0,0.0,3418.96,0,0,0,1,Distributor Absent
+2025-05-22,Thursday,3,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,32,6,6,210.0,3418.96,0,0,26,0,None
+2025-05-22,Thursday,3,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,10,10,1500.0,3418.96,38,10,0,0,Cash Constraint
+2025-05-22,Thursday,3,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,6,168.0,3418.96,29,6,0,1,Cash Constraint
+2025-05-22,Thursday,3,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,3418.96,0,0,0,1,Distributor Absent
+2025-05-23,Friday,4,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,7,23,23,1334.0,2770.26,20,20,4,0,None
+2025-05-23,Friday,4,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,12,12,360.0,2770.26,19,19,7,0,None
+2025-05-23,Friday,4,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,21,21,294.0,2770.26,66,66,45,0,None
+2025-05-23,Friday,4,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,18,18,180.0,2770.26,88,54,36,0,Cash Constraint
+2025-05-23,Friday,4,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,26,5,5,175.0,2770.26,0,0,21,0,None
+2025-05-23,Friday,4,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,9,0,0.0,2770.26,0,0,0,1,Distributor Absent
+2025-05-23,Friday,4,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2770.26,0,0,0,1,Distributor Absent
+2025-05-23,Friday,4,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,5,0,0.0,2770.26,0,0,0,1,Distributor Absent
+2025-05-24,Saturday,5,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,39,35,2030.0,3140.04,31,31,0,1,Unexpected Demand Spike
+2025-05-24,Saturday,5,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,7,31,25,750.0,3140.04,18,18,0,1,Unexpected Demand Spike
+2025-05-24,Saturday,5,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,45,21,21,294.0,3140.04,0,0,24,0,None
+2025-05-24,Saturday,5,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,36,19,19,190.0,3140.04,0,0,17,0,None
+2025-05-24,Saturday,5,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,21,6,6,210.0,3140.04,0,0,15,0,None
+2025-05-24,Saturday,5,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,15,0,0.0,3140.04,0,0,0,1,Distributor Absent
+2025-05-24,Saturday,5,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,12,0,0.0,3140.04,0,0,0,1,Distributor Absent
+2025-05-24,Saturday,5,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,6,6,450.0,3140.04,22,16,10,0,Cash Constraint
+2025-05-25,Sunday,6,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,26,22,1276.0,1179.74,35,22,0,1,Unexpected Demand Spike
+2025-05-25,Sunday,6,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,27,1,30.0,1179.74,25,1,0,1,Unexpected Demand Spike
+2025-05-25,Sunday,6,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,24,20,20,280.0,1179.74,0,0,4,0,None
+2025-05-25,Sunday,6,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,17,27,17,170.0,1179.74,0,0,0,1,Distributor Absent
+2025-05-25,Sunday,6,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,15,5,5,175.0,1179.74,0,0,10,0,None
+2025-05-25,Sunday,6,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,1179.74,0,0,0,1,Distributor Absent
+2025-05-25,Sunday,6,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,12,0,0.0,1179.74,0,0,0,1,Distributor Absent
+2025-05-25,Sunday,6,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,10,3,3,225.0,1179.74,0,0,7,0,None
+2025-05-26,Monday,0,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,27,27,1566.0,2987.32,27,27,0,0,None
+2025-05-26,Monday,0,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,19,19,570.0,2987.32,19,19,0,0,None
+2025-05-26,Monday,0,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,4,8,4,56.0,2987.32,0,0,0,1,Distributor Absent
+2025-05-26,Monday,0,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,15,0,0.0,2987.32,0,0,0,1,Distributor Absent
+2025-05-26,Monday,0,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,10,4,4,140.0,2987.32,0,0,6,0,None
+2025-05-26,Monday,0,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,10,8,1200.0,2987.32,26,8,0,1,Cash Constraint
+2025-05-26,Monday,0,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,6,1,28.0,2987.32,19,1,0,1,Cash Constraint
+2025-05-26,Monday,0,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,7,3,3,225.0,2987.32,0,0,4,0,None
+2025-05-27,Tuesday,1,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,27,27,1566.0,3278.41,27,27,0,0,None
+2025-05-27,Tuesday,1,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,24,19,570.0,3278.41,19,19,0,1,Unexpected Demand Spike
+2025-05-27,Tuesday,1,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,16,16,224.0,3278.41,49,49,33,0,None
+2025-05-27,Tuesday,1,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,20,20,200.0,3278.41,66,66,46,0,None
+2025-05-27,Tuesday,1,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,6,3,3,105.0,3278.41,0,0,3,0,None
+2025-05-27,Tuesday,1,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,7,0,0.0,3278.41,0,0,0,1,Distributor Absent
+2025-05-27,Tuesday,1,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,3278.41,0,0,0,1,Distributor Absent
+2025-05-27,Tuesday,1,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,4,4,4,300.0,3278.41,0,0,0,0,None
+2025-05-28,Wednesday,2,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,25,25,1450.0,2865.41,27,27,2,0,None
+2025-05-28,Wednesday,2,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,13,13,390.0,2865.41,19,19,6,0,None
+2025-05-28,Wednesday,2,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,33,11,11,154.0,2865.41,0,0,22,0,None
+2025-05-28,Wednesday,2,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,46,9,9,90.0,2865.41,0,0,37,0,None
+2025-05-28,Wednesday,2,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,3,4,4,140.0,2865.41,35,35,34,0,None
+2025-05-28,Wednesday,2,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,2865.41,0,0,0,1,Distributor Absent
+2025-05-28,Wednesday,2,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2865.41,0,0,0,1,Distributor Absent
+2025-05-28,Wednesday,2,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,3,0,0.0,2865.41,13,0,0,1,Cash Constraint
+2025-05-29,Thursday,3,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,31,30,1740.0,3108.33,28,28,0,1,Unexpected Demand Spike
+2025-05-29,Thursday,3,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,6,20,20,600.0,3108.33,15,15,1,0,None
+2025-05-29,Thursday,3,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,22,11,11,154.0,3108.33,0,0,11,0,None
+2025-05-29,Thursday,3,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,37,28,28,280.0,3108.33,0,0,9,0,None
+2025-05-29,Thursday,3,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,34,4,4,140.0,3108.33,0,0,30,0,None
+2025-05-29,Thursday,3,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,9,9,1350.0,3108.33,38,9,0,0,Cash Constraint
+2025-05-29,Thursday,3,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,6,2,56.0,3108.33,29,2,0,1,Cash Constraint
+2025-05-29,Thursday,3,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,3108.33,0,0,0,1,Distributor Absent
+2025-05-30,Friday,4,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,26,26,1508.0,3738.43,27,27,1,0,None
+2025-05-30,Friday,4,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,14,14,420.0,3738.43,18,18,5,0,None
+2025-05-30,Friday,4,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,11,15,15,210.0,3738.43,55,55,51,0,None
+2025-05-30,Friday,4,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,9,20,20,200.0,3738.43,79,79,68,0,None
+2025-05-30,Friday,4,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,30,5,5,175.0,3738.43,0,0,25,0,None
+2025-05-30,Friday,4,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,8,0,0.0,3738.43,0,0,0,1,Distributor Absent
+2025-05-30,Friday,4,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,3738.43,0,0,0,1,Distributor Absent
+2025-05-30,Friday,4,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,5,0,0.0,3738.43,0,0,0,1,Distributor Absent
+2025-05-31,Saturday,5,5,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,36,35,2030.0,4322.25,34,34,0,1,Unexpected Demand Spike
+2025-05-31,Saturday,5,5,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,25,25,750.0,4322.25,20,20,0,0,None
+2025-05-31,Saturday,5,5,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,51,20,20,280.0,4322.25,0,0,31,0,None
+2025-05-31,Saturday,5,5,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,68,16,16,160.0,4322.25,0,0,52,0,None
+2025-05-31,Saturday,5,5,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,25,5,5,175.0,4322.25,0,0,20,0,None
+2025-05-31,Saturday,5,5,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,14,0,0.0,4322.25,0,0,0,1,Distributor Absent
+2025-05-31,Saturday,5,5,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,4322.25,0,0,0,1,Distributor Absent
+2025-05-31,Saturday,5,5,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,3,3,225.0,4322.25,22,22,19,0,None
+2025-06-01,Sunday,6,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,40,35,2030.0,4359.13,35,35,0,1,Unexpected Demand Spike
+2025-06-01,Sunday,6,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,20,20,600.0,4359.13,25,25,5,0,None
+2025-06-01,Sunday,6,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,31,18,18,252.0,4359.13,0,0,13,0,None
+2025-06-01,Sunday,6,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,52,20,20,200.0,4359.13,0,0,32,0,None
+2025-06-01,Sunday,6,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,20,8,8,280.0,4359.13,0,0,12,0,None
+2025-06-01,Sunday,6,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,12,0,0.0,4359.13,0,0,0,1,Distributor Absent
+2025-06-01,Sunday,6,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,4359.13,0,0,0,1,Distributor Absent
+2025-06-01,Sunday,6,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,19,5,5,375.0,4359.13,0,0,14,0,None
+2025-06-02,Monday,0,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,29,27,1566.0,4297.72,27,27,0,1,Unexpected Demand Spike
+2025-06-02,Monday,0,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,15,15,450.0,4297.72,14,14,4,0,None
+2025-06-02,Monday,0,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,13,15,13,182.0,4297.72,0,0,0,1,Distributor Absent
+2025-06-02,Monday,0,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,32,18,18,180.0,4297.72,0,0,14,0,None
+2025-06-02,Monday,0,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,12,5,5,175.0,4297.72,0,0,7,0,None
+2025-06-02,Monday,0,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,8,8,1200.0,4297.72,26,18,10,0,Cash Constraint
+2025-06-02,Monday,0,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,9,5,140.0,4297.72,19,5,0,1,Cash Constraint
+2025-06-02,Monday,0,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,14,6,6,450.0,4297.72,0,0,8,0,None
+2025-06-03,Tuesday,1,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,30,27,1566.0,2478.03,27,27,0,1,Unexpected Demand Spike
+2025-06-03,Tuesday,1,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,19,19,570.0,2478.03,15,15,0,0,None
+2025-06-03,Tuesday,1,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,16,16,224.0,2478.03,49,49,33,0,None
+2025-06-03,Tuesday,1,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,14,21,21,210.0,2478.03,52,13,6,0,Cash Constraint
+2025-06-03,Tuesday,1,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,7,3,3,105.0,2478.03,0,0,4,0,None
+2025-06-03,Tuesday,1,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,10,2,2,300.0,2478.03,0,0,8,0,None
+2025-06-03,Tuesday,1,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,2478.03,0,0,0,1,Distributor Absent
+2025-06-03,Tuesday,1,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,4,4,300.0,2478.03,0,0,4,0,None
+2025-06-04,Wednesday,2,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,26,26,1508.0,4319.44,27,27,1,0,None
+2025-06-04,Wednesday,2,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,18,18,540.0,4319.44,19,19,1,0,None
+2025-06-04,Wednesday,2,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,33,20,20,280.0,4319.44,0,0,13,0,None
+2025-06-04,Wednesday,2,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,6,22,6,60.0,4319.44,0,0,0,1,Distributor Absent
+2025-06-04,Wednesday,2,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,4,5,5,175.0,4319.44,34,34,33,0,None
+2025-06-04,Wednesday,2,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,8,5,5,750.0,4319.44,0,0,3,0,None
+2025-06-04,Wednesday,2,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,9,0,0.0,4319.44,0,0,0,1,Distributor Absent
+2025-06-04,Wednesday,2,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,4,5,5,375.0,4319.44,9,9,8,0,None
+2025-06-05,Thursday,3,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,39,30,1740.0,3589.74,29,29,0,1,Unexpected Demand Spike
+2025-06-05,Thursday,3,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,20,20,600.0,3589.74,20,20,1,0,None
+2025-06-05,Thursday,3,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,13,15,13,182.0,3589.74,0,0,0,1,Distributor Absent
+2025-06-05,Thursday,3,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,17,0,0.0,3589.74,0,0,0,1,Distributor Absent
+2025-06-05,Thursday,3,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,33,5,5,175.0,3589.74,0,0,28,0,None
+2025-06-05,Thursday,3,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,3,8,8,1200.0,3589.74,35,11,6,0,Cash Constraint
+2025-06-05,Thursday,3,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,4,112.0,3589.74,29,4,0,1,Cash Constraint
+2025-06-05,Thursday,3,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,8,7,7,525.0,3589.74,0,0,1,0,None
+2025-06-06,Friday,4,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,31,27,1566.0,2329.89,27,27,0,1,Unexpected Demand Spike
+2025-06-06,Friday,4,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,23,19,570.0,2329.89,18,18,0,1,Unexpected Demand Spike
+2025-06-06,Friday,4,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,15,15,210.0,2329.89,66,39,24,0,Cash Constraint
+2025-06-06,Friday,4,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,14,0,0.0,2329.89,88,0,0,1,Cash Constraint
+2025-06-06,Friday,4,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,28,1,1,35.0,2329.89,0,0,27,0,None
+2025-06-06,Friday,4,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,6,4,4,600.0,2329.89,0,0,2,0,None
+2025-06-06,Friday,4,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,2329.89,0,0,0,1,Distributor Absent
+2025-06-06,Friday,4,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,1,4,1,75.0,2329.89,0,0,0,1,Distributor Absent
+2025-06-07,Saturday,5,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,28,28,1624.0,2876.08,35,35,7,0,None
+2025-06-07,Saturday,5,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,20,20,600.0,2876.08,25,25,5,0,None
+2025-06-07,Saturday,5,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,24,20,20,280.0,2876.08,0,0,4,0,None
+2025-06-07,Saturday,5,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,19,0,0.0,2876.08,0,0,0,1,Distributor Absent
+2025-06-07,Saturday,5,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,27,4,4,140.0,2876.08,0,0,23,0,None
+2025-06-07,Saturday,5,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,2,9,2,300.0,2876.08,0,0,0,1,Distributor Absent
+2025-06-07,Saturday,5,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,17,0,0.0,2876.08,0,0,0,1,Distributor Absent
+2025-06-07,Saturday,5,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,3,3,225.0,2876.08,22,6,3,0,Cash Constraint
+2025-06-08,Sunday,6,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,7,35,35,2030.0,3519.57,28,28,0,0,None
+2025-06-08,Sunday,6,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,5,21,21,630.0,3519.57,20,20,4,0,None
+2025-06-08,Sunday,6,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,4,21,4,56.0,3519.57,0,0,0,1,Distributor Absent
+2025-06-08,Sunday,6,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,24,0,0.0,3519.57,0,0,0,1,Distributor Absent
+2025-06-08,Sunday,6,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,23,5,5,175.0,3519.57,0,0,18,0,None
+2025-06-08,Sunday,6,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,15,0,0.0,3519.57,0,0,0,1,Distributor Absent
+2025-06-08,Sunday,6,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,3519.57,0,0,0,1,Distributor Absent
+2025-06-08,Sunday,6,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,3,5,3,225.0,3519.57,0,0,0,1,Distributor Absent
+2025-06-09,Monday,0,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,15,15,870.0,3432.79,27,27,12,0,None
+2025-06-09,Monday,0,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,19,19,570.0,3432.79,15,15,0,0,None
+2025-06-09,Monday,0,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,0,19,0,0.0,3432.79,0,0,0,1,Distributor Absent
+2025-06-09,Monday,0,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,19,0,0.0,3432.79,0,0,0,1,Distributor Absent
+2025-06-09,Monday,0,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,18,5,5,175.0,3432.79,0,0,13,0,None
+2025-06-09,Monday,0,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,11,11,1650.0,3432.79,26,12,1,0,Cash Constraint
+2025-06-09,Monday,0,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,3,1,28.0,3432.79,19,1,0,1,Cash Constraint
+2025-06-09,Monday,0,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,1,0,0.0,3432.79,0,0,0,1,Distributor Absent
+2025-06-10,Tuesday,1,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,12,18,18,1044.0,3394.74,15,15,9,0,None
+2025-06-10,Tuesday,1,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,20,19,570.0,3394.74,19,19,0,1,Unexpected Demand Spike
+2025-06-10,Tuesday,1,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,16,16,224.0,3394.74,49,49,33,0,None
+2025-06-10,Tuesday,1,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,22,22,220.0,3394.74,66,66,44,0,None
+2025-06-10,Tuesday,1,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,13,4,4,140.0,3394.74,0,0,9,0,None
+2025-06-10,Tuesday,1,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,1,4,1,150.0,3394.74,0,0,0,1,Distributor Absent
+2025-06-10,Tuesday,1,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,7,0,0.0,3394.74,0,0,0,1,Distributor Absent
+2025-06-10,Tuesday,1,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,2,0,0.0,3394.74,0,0,0,1,Distributor Absent
+2025-06-11,Wednesday,2,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,9,30,27,1566.0,2384.92,18,18,0,1,Unexpected Demand Spike
+2025-06-11,Wednesday,2,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,24,19,570.0,2384.92,19,19,0,1,Unexpected Demand Spike
+2025-06-11,Wednesday,2,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,33,22,22,308.0,2384.92,0,0,11,0,None
+2025-06-11,Wednesday,2,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,44,29,29,290.0,2384.92,0,0,15,0,None
+2025-06-11,Wednesday,2,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,9,2,2,70.0,2384.92,29,29,36,0,None
+2025-06-11,Wednesday,2,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,7,0,0.0,2384.92,0,0,0,1,Distributor Absent
+2025-06-11,Wednesday,2,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,3,0,0.0,2384.92,0,0,0,1,Distributor Absent
+2025-06-11,Wednesday,2,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,5,2,150.0,2384.92,13,2,0,1,Cash Constraint
+2025-06-12,Thursday,3,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,17,17,986.0,3504.86,30,30,13,0,None
+2025-06-12,Thursday,3,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,23,21,630.0,3504.86,21,21,0,1,Unexpected Demand Spike
+2025-06-12,Thursday,3,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,11,16,11,154.0,3504.86,0,0,0,1,Distributor Absent
+2025-06-12,Thursday,3,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,15,25,15,150.0,3504.86,0,0,0,1,Distributor Absent
+2025-06-12,Thursday,3,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,36,5,5,175.0,3504.86,0,0,31,0,None
+2025-06-12,Thursday,3,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,7,7,1050.0,3504.86,38,10,3,0,Cash Constraint
+2025-06-12,Thursday,3,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,6,3,84.0,3504.86,29,3,0,1,Cash Constraint
+2025-06-12,Thursday,3,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3504.86,0,0,0,1,Distributor Absent
+2025-06-13,Friday,4,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,13,23,23,1334.0,2556.49,14,14,4,0,None
+2025-06-13,Friday,4,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,18,18,540.0,2556.49,19,19,1,0,None
+2025-06-13,Friday,4,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,0,13,13,182.0,2556.49,66,66,53,0,None
+2025-06-13,Friday,4,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,13,13,130.0,2556.49,88,66,53,0,Cash Constraint
+2025-06-13,Friday,4,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,31,3,3,105.0,2556.49,0,0,28,0,None
+2025-06-13,Friday,4,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,3,3,450.0,2556.49,0,0,0,0,None
+2025-06-13,Friday,4,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,2556.49,0,0,0,1,Distributor Absent
+2025-06-13,Friday,4,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,7,0,0.0,2556.49,0,0,0,1,Distributor Absent
+2025-06-14,Saturday,5,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,35,35,2030.0,2871.55,31,31,0,0,None
+2025-06-14,Saturday,5,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,33,25,750.0,2871.55,24,24,0,1,Unexpected Demand Spike
+2025-06-14,Saturday,5,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,53,13,13,182.0,2871.55,0,0,40,0,None
+2025-06-14,Saturday,5,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,53,30,30,300.0,2871.55,0,0,23,0,None
+2025-06-14,Saturday,5,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,28,9,9,315.0,2871.55,0,0,19,0,None
+2025-06-14,Saturday,5,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,10,0,0.0,2871.55,0,0,0,1,Distributor Absent
+2025-06-14,Saturday,5,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,6,0,0.0,2871.55,0,0,0,1,Distributor Absent
+2025-06-14,Saturday,5,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,6,6,450.0,2871.55,22,10,4,0,Cash Constraint
+2025-06-15,Sunday,6,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,33,33,1914.0,3760.67,35,35,2,0,None
+2025-06-15,Sunday,6,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,22,22,660.0,3760.67,25,25,3,0,None
+2025-06-15,Sunday,6,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,40,19,19,266.0,3760.67,0,0,21,0,None
+2025-06-15,Sunday,6,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,23,23,23,230.0,3760.67,0,0,0,0,None
+2025-06-15,Sunday,6,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,19,7,7,245.0,3760.67,0,0,12,0,None
+2025-06-15,Sunday,6,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,3760.67,0,0,0,1,Distributor Absent
+2025-06-15,Sunday,6,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,10,0,0.0,3760.67,0,0,0,1,Distributor Absent
+2025-06-15,Sunday,6,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,4,10,4,300.0,3760.67,0,0,0,1,Distributor Absent
+2025-06-16,Monday,0,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,2,30,27,1566.0,4247.18,25,25,0,1,Unexpected Demand Spike
+2025-06-16,Monday,0,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,18,18,540.0,4247.18,16,16,1,0,None
+2025-06-16,Monday,0,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,21,18,18,252.0,4247.18,0,0,3,0,None
+2025-06-16,Monday,0,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,15,0,0.0,4247.18,0,0,0,1,Distributor Absent
+2025-06-16,Monday,0,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,12,5,5,175.0,4247.18,0,0,7,0,None
+2025-06-16,Monday,0,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,5,5,750.0,4247.18,26,18,13,0,Cash Constraint
+2025-06-16,Monday,0,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,4,4,112.0,4247.18,19,5,1,0,Cash Constraint
+2025-06-16,Monday,0,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,4247.18,0,0,0,1,Distributor Absent
+2025-06-17,Tuesday,1,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,22,22,1276.0,3771.22,27,27,5,0,None
+2025-06-17,Tuesday,1,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,20,19,570.0,3771.22,18,18,0,1,Unexpected Demand Spike
+2025-06-17,Tuesday,1,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,3,11,11,154.0,3771.22,46,46,38,0,None
+2025-06-17,Tuesday,1,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,18,18,180.0,3771.22,66,66,48,0,None
+2025-06-17,Tuesday,1,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,7,7,7,245.0,3771.22,0,0,0,0,None
+2025-06-17,Tuesday,1,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,13,10,10,1500.0,3771.22,0,0,3,0,None
+2025-06-17,Tuesday,1,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,1,6,1,28.0,3771.22,0,0,0,1,Distributor Absent
+2025-06-17,Tuesday,1,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,3771.22,0,0,0,1,Distributor Absent
+2025-06-18,Wednesday,2,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,22,22,1276.0,2138.66,22,22,5,0,None
+2025-06-18,Wednesday,2,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,19,19,570.0,2138.66,19,19,0,0,None
+2025-06-18,Wednesday,2,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,38,13,13,182.0,2138.66,0,0,25,0,None
+2025-06-18,Wednesday,2,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,48,14,14,140.0,2138.66,0,0,34,0,None
+2025-06-18,Wednesday,2,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,5,5,175.0,2138.66,38,18,13,0,Cash Constraint
+2025-06-18,Wednesday,2,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,9,3,450.0,2138.66,0,0,0,1,Distributor Absent
+2025-06-18,Wednesday,2,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,2138.66,0,0,0,1,Distributor Absent
+2025-06-18,Wednesday,2,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,2,0,0.0,2138.66,13,0,0,1,Cash Constraint
+2025-06-19,Thursday,3,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,5,21,21,1218.0,3923.24,25,25,9,0,None
+2025-06-19,Thursday,3,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,17,17,510.0,3923.24,21,21,4,0,None
+2025-06-19,Thursday,3,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,25,14,14,196.0,3923.24,0,0,11,0,None
+2025-06-19,Thursday,3,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,34,24,24,240.0,3923.24,0,0,10,0,None
+2025-06-19,Thursday,3,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,13,5,5,175.0,3923.24,0,0,8,0,None
+2025-06-19,Thursday,3,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,10,10,1500.0,3923.24,38,15,5,0,Cash Constraint
+2025-06-19,Thursday,3,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,8,3,84.0,3923.24,29,3,0,1,Cash Constraint
+2025-06-19,Thursday,3,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,6,0,0.0,3923.24,0,0,0,1,Distributor Absent
+2025-06-20,Friday,4,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,9,23,23,1334.0,2150.18,18,18,4,0,None
+2025-06-20,Friday,4,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,17,17,510.0,2150.18,15,15,2,0,None
+2025-06-20,Friday,4,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,11,11,11,154.0,2150.18,55,55,55,0,None
+2025-06-20,Friday,4,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,10,25,25,250.0,2150.18,78,21,6,0,Cash Constraint
+2025-06-20,Friday,4,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,8,7,7,245.0,2150.18,0,0,1,0,None
+2025-06-20,Friday,4,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,5,8,5,750.0,2150.18,0,0,0,1,Distributor Absent
+2025-06-20,Friday,4,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,2150.18,0,0,0,1,Distributor Absent
+2025-06-20,Friday,4,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,3,0,0.0,2150.18,0,0,0,1,Distributor Absent
+2025-06-21,Saturday,5,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,4,34,34,1972.0,4249.8,31,31,1,0,None
+2025-06-21,Saturday,5,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,2,22,22,660.0,4249.8,23,23,3,0,None
+2025-06-21,Saturday,5,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,55,15,15,210.0,4249.8,0,0,40,0,None
+2025-06-21,Saturday,5,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,6,29,6,60.0,4249.8,0,0,0,1,Distributor Absent
+2025-06-21,Saturday,5,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,1,9,1,35.0,4249.8,0,0,0,1,Distributor Absent
+2025-06-21,Saturday,5,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,11,0,0.0,4249.8,0,0,0,1,Distributor Absent
+2025-06-21,Saturday,5,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,4249.8,0,0,0,1,Distributor Absent
+2025-06-21,Saturday,5,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,4,4,300.0,4249.8,22,22,18,0,None
+2025-06-22,Sunday,6,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,20,20,1160.0,3273.55,34,34,15,0,None
+2025-06-22,Sunday,6,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,3,24,24,720.0,3273.55,22,22,1,0,None
+2025-06-22,Sunday,6,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,40,13,13,182.0,3273.55,0,0,27,0,None
+2025-06-22,Sunday,6,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,25,0,0.0,3273.55,0,0,0,1,Distributor Absent
+2025-06-22,Sunday,6,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,10,0,0.0,3273.55,0,0,0,1,Distributor Absent
+2025-06-22,Sunday,6,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,12,0,0.0,3273.55,0,0,0,1,Distributor Absent
+2025-06-22,Sunday,6,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,8,0,0.0,3273.55,0,0,0,1,Distributor Absent
+2025-06-22,Sunday,6,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,18,5,5,375.0,3273.55,0,0,13,0,None
+2025-06-23,Monday,0,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,15,30,27,1566.0,1818.19,12,12,0,1,Unexpected Demand Spike
+2025-06-23,Monday,0,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,1,25,19,570.0,1818.19,18,18,0,1,Unexpected Demand Spike
+2025-06-23,Monday,0,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,27,20,20,280.0,1818.19,0,0,7,0,None
+2025-06-23,Monday,0,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,22,0,0.0,1818.19,0,0,0,1,Distributor Absent
+2025-06-23,Monday,0,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,4,0,0.0,1818.19,0,0,0,1,Distributor Absent
+2025-06-23,Monday,0,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,5,5,750.0,1818.19,26,5,0,0,Cash Constraint
+2025-06-23,Monday,0,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,4,3,84.0,1818.19,19,3,0,1,Cash Constraint
+2025-06-23,Monday,0,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,13,6,6,450.0,1818.19,0,0,7,0,None
+2025-06-24,Tuesday,1,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,31,27,1566.0,2573.15,27,27,0,1,Unexpected Demand Spike
+2025-06-24,Tuesday,1,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,23,19,570.0,2573.15,19,19,0,1,Unexpected Demand Spike
+2025-06-24,Tuesday,1,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,7,16,16,224.0,2573.15,42,42,33,0,None
+2025-06-24,Tuesday,1,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,18,18,180.0,2573.15,66,22,4,0,Cash Constraint
+2025-06-24,Tuesday,1,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,0,3,0,0.0,2573.15,0,0,0,1,Distributor Absent
+2025-06-24,Tuesday,1,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,13,0,0.0,2573.15,0,0,0,1,Distributor Absent
+2025-06-24,Tuesday,1,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,5,0,0.0,2573.15,0,0,0,1,Distributor Absent
+2025-06-24,Tuesday,1,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,7,6,6,450.0,2573.15,0,0,1,0,None
+2025-06-25,Wednesday,2,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,24,24,1392.0,4001.66,27,27,3,0,None
+2025-06-25,Wednesday,2,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,24,19,570.0,4001.66,19,19,0,1,Unexpected Demand Spike
+2025-06-25,Wednesday,2,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,33,15,15,210.0,4001.66,0,0,18,0,None
+2025-06-25,Wednesday,2,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,4,15,4,40.0,4001.66,0,0,0,1,Distributor Absent
+2025-06-25,Wednesday,2,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,1,0,4,4,140.0,4001.66,38,38,34,0,None
+2025-06-25,Wednesday,2,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,13,0,0.0,4001.66,0,0,0,1,Distributor Absent
+2025-06-25,Wednesday,2,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,4001.66,0,0,0,1,Distributor Absent
+2025-06-25,Wednesday,2,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,1,8,8,600.0,4001.66,12,12,5,0,None
+2025-06-26,Thursday,3,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,3,29,29,1682.0,4206.25,27,27,1,0,None
+2025-06-26,Thursday,3,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,26,21,630.0,4206.25,21,21,0,1,Unexpected Demand Spike
+2025-06-26,Thursday,3,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,18,12,12,168.0,4206.25,0,0,6,0,None
+2025-06-26,Thursday,3,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,22,0,0.0,4206.25,0,0,0,1,Distributor Absent
+2025-06-26,Thursday,3,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,34,4,4,140.0,4206.25,0,0,30,0,None
+2025-06-26,Thursday,3,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,1,0,13,13,1950.0,4206.25,38,16,3,0,Cash Constraint
+2025-06-26,Thursday,3,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,1,0,7,5,140.0,4206.25,29,5,0,1,Cash Constraint
+2025-06-26,Thursday,3,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,5,4,4,300.0,4206.25,0,0,1,0,None
+2025-06-27,Friday,4,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,1,37,27,1566.0,2860.07,26,26,0,1,Unexpected Demand Spike
+2025-06-27,Friday,4,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,24,19,570.0,2860.07,19,19,0,1,Unexpected Demand Spike
+2025-06-27,Friday,4,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,1,6,11,11,154.0,2860.07,60,60,55,0,None
+2025-06-27,Friday,4,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,1,0,21,21,210.0,2860.07,88,36,15,0,Cash Constraint
+2025-06-27,Friday,4,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,30,3,3,105.0,2860.07,0,0,27,0,None
+2025-06-27,Friday,4,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,3,9,3,450.0,2860.07,0,0,0,1,Distributor Absent
+2025-06-27,Friday,4,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,4,0,0.0,2860.07,0,0,0,1,Distributor Absent
+2025-06-27,Friday,4,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,1,2,1,75.0,2860.07,0,0,0,1,Distributor Absent
+2025-06-28,Saturday,5,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,41,35,2030.0,2561.53,35,35,0,1,Unexpected Demand Spike
+2025-06-28,Saturday,5,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,0,21,21,630.0,2561.53,25,25,4,0,None
+2025-06-28,Saturday,5,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,55,27,27,378.0,2561.53,0,0,28,0,None
+2025-06-28,Saturday,5,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,15,22,15,150.0,2561.53,0,0,0,1,Distributor Absent
+2025-06-28,Saturday,5,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,27,7,7,245.0,2561.53,0,0,20,0,None
+2025-06-28,Saturday,5,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,13,0,0.0,2561.53,0,0,0,1,Distributor Absent
+2025-06-28,Saturday,5,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,11,0,0.0,2561.53,0,0,0,1,Distributor Absent
+2025-06-28,Saturday,5,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,1,0,5,1,75.0,2561.53,22,1,0,1,Cash Constraint
+2025-06-29,Sunday,6,6,0,Milk_1L,Dairy,52.0,58.0,10.34,1,0,32,32,1856.0,4944.45,35,35,3,0,None
+2025-06-29,Sunday,6,6,0,Bread_Pack,Bakery,25.0,30.0,16.67,1,4,18,18,540.0,4944.45,21,21,7,0,None
+2025-06-29,Sunday,6,6,0,Maggi_Single,Instant Food,12.0,14.0,14.29,0,28,7,7,98.0,4944.45,0,0,21,0,None
+2025-06-29,Sunday,6,6,0,ParleG_100g,Biscuits,8.5,10.0,15.0,0,0,31,0,0.0,4944.45,0,0,0,1,Distributor Absent
+2025-06-29,Sunday,6,6,0,Lux_Soap_100g,Personal Care,28.0,35.0,20.0,0,20,10,10,350.0,4944.45,0,0,10,0,None
+2025-06-29,Sunday,6,6,0,Fortune_Oil_1L,Cooking Oil,135.0,150.0,10.0,0,0,9,0,0.0,4944.45,0,0,0,1,Distributor Absent
+2025-06-29,Sunday,6,6,0,Tata_Salt_1kg,Staples,22.0,28.0,21.43,0,0,3,0,0.0,4944.45,0,0,0,1,Distributor Absent
+2025-06-29,Sunday,6,6,0,Surf_Excel_500g,Household,65.0,75.0,13.33,0,0,4,0,0.0,4944.45,0,0,0,1,Distributor Absent
